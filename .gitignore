@@ -1,0 +1,14 @@
+.vscode
+.DS_Store
+node_modules/
+.next/
+dist/
+.env
+.idea
+coverage
+reports/*.xml
+setup/backup.sql
+.history/
+setup/cdk/cdk.out
+.turbo
+out
