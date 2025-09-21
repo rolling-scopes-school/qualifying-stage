@@ -23,8 +23,8 @@ English only (assignments, communication, and interviews).
 
 ### Week #1 ( September, 22 - September, 28 )
 - Test RSSchool App
-- [CV. Markdown & Git](<tasks/cv/en/git-markdown.md>)
-- [CV. HTML, CSS & Git Basics ](<tasks/cv/en/html-css-git.md>)
+- [CV. Markdown & Git](<tasks/cv/git-markdown.md>)
+- [CV. HTML, CSS & Git Basics ](<tasks/cv/html-css-git.md>)
 
 ### Week #2 - Week #3 ( September, 29 - October, 12 )
 - Layout (HTML/CSS) 
