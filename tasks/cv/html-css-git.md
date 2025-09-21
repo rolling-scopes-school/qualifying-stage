@@ -56,7 +56,7 @@ of your CV in the **Solution URL** field, and click the **Submit** button.
 - **+10 points**: The footer section must include:
     - A link to the **author's GitHub profile**.
     - The **year of creation**.
-    - The course logo ([RS School logo](../images/rs-school-logo.svg)).
+    - The course logo ([RS School logo](../cv/images/rs-school-logo.svg)).
     - A link to the [RS School course](https://rs.school/courses/short-track).
 
 ### CSS Styles
