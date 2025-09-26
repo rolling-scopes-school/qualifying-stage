@@ -1,7 +1,7 @@
 # Coffee House
 
 ## Project's Description
-Coffee House is a project where you will need to create a website consisting of two pages, make it responsive, and add interactivity.
+The Coffee House project involves creating a responsive website with two pages, incorporating interactivity to enhance user engagement. The project challenges you to demonstrate your front-end development skills while adhering to responsive design principles.
 The duration of the task is 2 week.  
 The form of evaluation of the task is a cross-check review.
 [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0)
@@ -30,9 +30,9 @@ Start the task by creating your own copy of the layout. To do this:
 4. Using JS frameworks (e.g., `Angular`, `React`, `Vue`, etc.) **is not allowed**.
 5. Using outdated libraries (e.g. `JQuery`, etc.) or pre-built libraries (e.g. `Swiper`, etc) to implement functionality **is not allowed**.
 6. Using `TypeScript` **is not allowed**.
-7. Using CSS preprocessors (`SASS`, `SCSS`), `normalize.css` is allowed.
-8. Using a style reset with `reset.css` is not recommended.
-9. Adding layout as an image by taking a screenshot of a part of the layout and pasting it into the markup is not allowed. Please use tags and characters for layout, and use images only for adding pictures and icons, not for layout elements (buttons, blocks, sections).
+7. Using CSS preprocessors (`SASS`, `SCSS`), `normalize.css` **is allowed**.
+8. Using a style reset with `reset.css` **is not recommended**.
+9. Adding layout as an image by taking a screenshot of a part of the layout and pasting it into the markup **is not allowed**. Please use tags and characters for layout, and use images only for adding pictures and icons, not for layout elements (buttons, blocks, sections).
 10. The code must be readable, without minification or obfuscation.
 
 ## Repository Requirements
