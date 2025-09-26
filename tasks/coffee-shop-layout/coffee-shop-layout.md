@@ -102,7 +102,7 @@ After receiving the task but before the deadline, please go to the RS App at htt
     - On `menu` page: **+4**
 7. At screen widths of 768px and below on both pages, the menu and navigation buttons in the header are hidden, and a burger menu icon appears: **+4**  
    Opening the menu by clicking on the burger menu icon is not checked at this stage
-8. Hover effects are enable on desktop devices (`Desktop` device type in DevTools) and disabled for mobile devices on both pages (`Mobile` device type in DevTools): **+4**
+8. Hover effects are enable on desktop devices (`Desktop` device type in DevTools) and disabled for mobile devices on both pages (`Mobile` device type in DevTools): **+5**
 9. CSS Requirements **+10**
     - For positioning images in `About` block on `home` page and products in `Menu` block on `menu` page used **Flexbox** or **Grid Layout** **+4**
     - When scaling the browser page (<100%) or increasing the page width (>1440px), the layout of both pages is centered rather than shifted to the side and not stretched across the entire width **+4**
@@ -166,7 +166,7 @@ After receiving the task but before the deadline, please go to the RS App at htt
 
 ## Criteria for evaluation
 
-**Maximum score for the task: 234 points**
+**Maximum score for the task: 235 points**
 
 Scores for requirement points are specified in [Layout Requirements](#layout-requirements) and [Functional requirements ](#functional-requirements) sections
 
