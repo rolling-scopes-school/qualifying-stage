@@ -36,7 +36,7 @@ Start the task by creating your own copy of the layout. To do this:
 10. The code must be readable, without minification or obfuscation.
 
 ## Repository Requirements
-- Task should be done in private school's repository
+- The task should be completed in your own private repository. Please ensure your repository is set to private to prevent plagiarism or the copying of solutions.
 - Create new branch `coffee-house` from `main`. Create a folder `coffee-house` in the created branch. Place your code in this folder.
 - The `main` (or `master`) branch should be empty (contain only files like README.md, .gitignore or .github folder)
 - Use `gh-pages` for deployment
@@ -60,7 +60,6 @@ After receiving the task but before the deadline, please go to the RS App at htt
 
 ## Submit Recommendations
 - It is recommended to submit the task as early as possible, as soon as the option becomes available in the rs app. After submission, you can continue working on the task until the deadline
-- Since the project is being done in a private repository, there is no point in submitting a link to the repository or a pull request - the reviewer won't be able to see it. The private school repository is only visible to you, course admins, and your mentors when they become available
 - Make sure that the deployed link you provide opens in incognito mode of the browser
 
 ## Layout Requirements
