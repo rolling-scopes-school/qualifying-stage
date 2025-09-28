@@ -172,7 +172,6 @@ Scores for requirement points are specified in [Layout Requirements](#layout-req
 
 All disputed issues are resolved in favor of the student being assessed.
 
-To make the assessment of your work easier, print self-assessment of your project in the browser console, listing points for each criteria you have completed.
 
 ## Penalties
 1. Layout of the entire design or individual blocks is implemented using images -90
