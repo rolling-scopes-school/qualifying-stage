@@ -27,7 +27,7 @@ English only (assignments, communication, and interviews).
 - [CV. HTML, CSS & Git Basics ](<tasks/cv/html-css-git.md>)
 
 ### Week #2 - Week #3 ( September, 29 - October, 12 )
-- Layout (HTML/CSS) 
+- [Coffee-house](<tasks/coffee-shop-layout/coffee-shop-layout.md>)
 
 ### Week #4 - Week #5 ( October, 13 - October, 26 )
 - Redesigned the layout into a business application using HTML, CSS, TypeScript, and Git
