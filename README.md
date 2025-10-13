@@ -30,5 +30,7 @@ English only (assignments, communication, and interviews).
 - [Coffee-house](<tasks/coffee-shop-layout/coffee-shop-layout.md>)
 
 ### Week #4 - Week #5 ( October, 13 - October, 26 )
-- Redesigned the layout into a business application using HTML, CSS, TypeScript, and Git
+- [TypeScript. Coffee-house](<tasks/typescript/coffee-house.md>)
+
+### Week #6 - week #7 ( October, 27 - November, 2 )
 - [Self introduction](<tasks/self-introduction/en/self-introduction.md>)
