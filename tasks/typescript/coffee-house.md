@@ -162,7 +162,7 @@ documentation for this http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/a
 1. **Input Fields**
     - The user must input their **login** and **password**.
 
-2. **Validation**
+2. **Validation Rules**
     - **Login Rules**:
         - Must be at least 3 characters long.
         - Must start with a letter.
@@ -171,6 +171,12 @@ documentation for this http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/a
     - **Password Rules**:
         - Must be at least 6 characters long.
         - Must contain at least 1 special character.
+
+4. **Validation effects**
+   - On blur, validate the input field. If invalid:
+      - Apply a red border and error icon to the input.
+      - Display a validation message below the field.
+   - On focus, clear the validation message and reset the input styling.
 
 3. **Button Enablement**
     - The **Sign In** button should remain disabled until both fields are correctly filled.
@@ -209,11 +215,10 @@ documentation for this http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/a
 2. **Mandatory Fields**
     - All fields must be filled out before submission.
 
-3. **Validation Feedback**
+3. **Validation**
     - On blur, validate the input field. If invalid:
         - Apply a red border and error icon to the input.
         - Display a validation message below the field.
-
     - On focus, clear the validation message and reset the input styling.
    
 4. **Button Enablement**
