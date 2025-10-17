@@ -236,7 +236,7 @@ The maximum score for this task is **360 points**, distributed as follows:
 
 1. **Technical Implementation (30 points)**
     - TypeScript integration (10 points)
-    - Proper ESLint and Webpack configuration (5 points)
+    - Proper ESLint and Webpack/Vite configuration (5 points)
     - Adherence to strict typing rules (5 points)
     - Interfaces, enums, and generics usage (5 points)
     - Linting rules compliance (5 points)
