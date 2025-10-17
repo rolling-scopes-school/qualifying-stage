@@ -47,11 +47,11 @@ Link to the [layout](https://www.figma.com/design/vtOxEIbYsyutkVYM41ueKK/Coffee-
 
 ### Beck-end integration
    - Carefully review the endpoints provided by the backend and the corresponding interfaces. Use the Swagger 
-documentation for this http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/api
+documentation for this htts://6kt29kkeub.execute-api.eu-central-1.amazonaws.com/api
 
 ### Main Page
 1. **Data Fetching**
-    - On page load, make a [request](http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/api#/Products/ProductsController_getFavoriteProducts) to the back-end to fetch a set of 3 favorite coffee items. 
+    - On page load, make a [request](https://6kt29kkeub.execute-api.eu-central-1.amazonaws.com/api#/Products/ProductsController_getFavoriteProducts) to the back-end to fetch a set of 3 favorite coffee items. 
 
 2. **Loader**
     - Show a loader while waiting for the back-end response at the location where the slider with favorite coffee examples will appear. All other page elements should be immediately available.
@@ -66,7 +66,7 @@ documentation for this http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/a
 
 ### Menu Page
 1. **Data Fetching**
-    - On page load, make a [request](http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/api#/Products/ProductsController_getAllProducts) to the back-end to fetch data for the coffee cards. This includes:
+    - On page load, make a [request](https://6kt29kkeub.execute-api.eu-central-1.amazonaws.com/api#/Products/ProductsController_getAllProducts) to the back-end to fetch data for the coffee cards. This includes:
         - Name,
         - Description,
         - Price,
@@ -95,7 +95,7 @@ documentation for this http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/a
 
 ### Modal Window
 1. **Data Fetching**
-    - When a user clicks on a product, make a back-end [request](http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/api#/Products/ProductsController_getProductById) to fetch detailed product information by its `id` and display it in a modal window.
+    - When a user clicks on a product, make a back-end [request](https://6kt29kkeub.execute-api.eu-central-1.amazonaws.com/api#/Products/ProductsController_getProductById) to fetch detailed product information by its `id` and display it in a modal window.
 
 2. **Loader**
     - While waiting for the back-end response, show an overlay with a loader.
@@ -151,7 +151,7 @@ documentation for this http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/a
     - If the user is logged in, display the delivery address and a **Confirm Order** button below the order list.
 
 6. **Order Confirmation**
-   - When the user clicks the **Confirm Order** button make a [request](http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/api#/Orders/OrdersController_confirmOrder) to the back-end to place the order.
+   - When the user clicks the **Confirm Order** button make a [request](https://6kt29kkeub.execute-api.eu-central-1.amazonaws.com/api#/Orders/OrdersController_confirmOrder) to the back-end to place the order.
    - While the order is being placed, show a loader.
    - If an error occurs during order placement, display a notification at the top of the page with the text: _“Something went wrong. Please, try again”._
    - The design of the notification is entirely up to you
@@ -182,7 +182,7 @@ documentation for this http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/a
     - The **Sign In** button should remain disabled until both fields are correctly filled.
 
 5. **Authentication**
-    - On clicking the **Sign In** button, send a [request](http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/api#/Authentication/AuthController_login) to the back-end to authenticate the user.
+    - On clicking the **Sign In** button, send a [request](https://6kt29kkeub.execute-api.eu-central-1.amazonaws.com/api#/Authentication/AuthController_login) to the back-end to authenticate the user.
 
 5. **Error Handling**
     - If the login attempt fails, display an error message below the form: _“Incorrect login or password”_.
@@ -225,7 +225,7 @@ documentation for this http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/a
     - The **Register** button should remain disabled until all fields are correctly filled.
 
 5. **Registration Process**
-    - On clicking the **Register** button, send a [request](http://coffee-shop-be.eu-central-1.elasticbeanstalk.com/api#/Authentication/AuthController_register) to the back-end to register the user.
+    - On clicking the **Register** button, send a [request](https://6kt29kkeub.execute-api.eu-central-1.amazonaws.com/api#/Authentication/AuthController_register) to the back-end to register the user.
 
 6. **Error Handling**
     - If registration fails, display an error message below the form based on beck-end response.
