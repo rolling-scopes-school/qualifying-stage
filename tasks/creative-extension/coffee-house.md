@@ -1,14 +1,14 @@
-### ☕ Coffee-House: Creative Extension
+# ☕ Coffee-House: Creative Extension
 
 Welcome to the **final stage** of your Coffee-House project — the time to unleash your creativity, technical curiosity, and problem-solving skills!
 
 In this part, you have **2 weeks** to design and implement your own **unique feature or improvement** to the Coffee-House app. This is your chance to go beyond the given requirements and show initiative as a developer.
 
-#### 🎯 Your task
+## 🎯 Your task
 
 Choose and implement **one or more** enhancements that demonstrate your creativity and ability to explore new technologies or improve the existing solution.
 
-You can:
+### You can
 
 🧩 **Add a new feature** — loyalty system, product reviews, favorite drinks, dark/light theme switcher, etc.
 
@@ -28,7 +28,13 @@ You can:
 
 ✨ **Anything else that reflects your creativity and technical growth!**
 
-🧑‍🏫 Presentation & Interview
+#### Backend Source Code (Optional)
+
+If your feature requires backend changes, you may use and extend the backend prepared for the previous part of the assignment:
+
+🔗 <https://github.com/AlreadyBored/coffee-shop-be>
+
+## 🧑‍🏫 Presentation & Interview
 
 At the end of the task, you’ll present your project to your mentor.
 Prepare a short presentation (5–10 minutes) where you:
@@ -43,7 +49,7 @@ Share challenges you faced and how you solved them.
 
 Be ready for your mentor to ask technical questions about your work — to understand how deeply you grasped the topic.
 
-#### 🏆 Evaluation
+## 🏆 Evaluation
 
 ❗️ **Please note:** The presentation of your feature will be a part of the technical interview with your mentor. After the interview, you will receive two separate score:
 
@@ -51,7 +57,7 @@ Be ready for your mentor to ask technical questions about your work — to under
 
 - **Technical Interview** — for your understanding of the project, technologies, and general front-end knowledge.
 
-#### 💡 **Tips for Success**
+## 💡 **Tips for Success**
 
 - Choose something that excites you — your enthusiasm will make your work shine!
 - Manage your time — plan your work so you have time for testing and polishing.
