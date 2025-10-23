@@ -128,6 +128,7 @@ documentation for this htts://6kt29kkeub.execute-api.eu-central-1.amazonaws.com/
     - The cart icon should always be visible for logged-in users.
         - For non-logged-in users, it will become visible once the first item is added to the cart.
     - Display the total number of items next to the cart icon and discount in case the user is logged.
+    - The cart icon should navigate to the cart page.
 
 2. **Persistence**
     - Cart contents should persist even after refreshing the application until the user clears the cart manually (Local Storage).
