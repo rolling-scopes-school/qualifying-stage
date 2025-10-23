@@ -40,12 +40,12 @@ Link to the [layout](https://www.figma.com/design/vtOxEIbYsyutkVYM41ueKK/Coffee-
 6. **ESLint Rule**
     - Enable the ESLint rule: `no-explicit-any`.
 
-7. **Beck-end Compatibility**
+7. **Back-end Compatibility**
    - Create all necessary interfaces to interact with the API.
 
 ## Functional Requirements
 
-### Beck-end integration
+### Back-end integration
    - Carefully review the endpoints provided by the backend and the corresponding interfaces. Use the Swagger 
 documentation for this htts://6kt29kkeub.execute-api.eu-central-1.amazonaws.com/api
 
@@ -228,7 +228,7 @@ documentation for this htts://6kt29kkeub.execute-api.eu-central-1.amazonaws.com/
     - On clicking the **Register** button, send a [request](https://6kt29kkeub.execute-api.eu-central-1.amazonaws.com/api#/Authentication/AuthController_register) to the back-end to register the user.
 
 6. **Error Handling**
-    - If registration fails, display an error message below the form based on beck-end response.
+    - If registration fails, display an error message below the form based on back-end response.
 
 ## Evaluating Criteria
 
@@ -236,7 +236,7 @@ The maximum score for this task is **360 points**, distributed as follows:
 
 1. **Technical Implementation (30 points)**
     - TypeScript integration (10 points)
-    - Proper ESLint and Webpack configuration (5 points)
+    - Proper ESLint and Webpack/Vite configuration (5 points)
     - Adherence to strict typing rules (5 points)
     - Interfaces, enums, and generics usage (5 points)
     - Linting rules compliance (5 points)
