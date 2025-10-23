@@ -10,23 +10,15 @@ Choose and implement **one or more** enhancements that demonstrate your creativi
 
 ### You can
 
-🧩 **Add a new feature** — loyalty system, product reviews, favorite drinks, dark/light theme switcher, etc.
-
-⚙️ **Integrate a tool or technology** — implement ESLint rules, Husky pre-commit hooks, unit tests, or CI/CD with GitHub Actions.
-
-🚀 **Migrate the project to a framework** — for example, rebuild it with React, Vue, or Angular (if you feel ready!).
-
-🗄️ **Enhance the back-end** — add new endpoints, improve error handling, or extend the existing API.
-
-🧠 **Implement performance or UX improvements** — lazy loading, accessibility features, or better mobile interactions.
-
-🌍 **Add localization** — support for multiple languages and user settings.
-
-💳 **Add payment simulation** or an order tracking page.
-
-📈 **Create an admin dashboard** for managing products or orders.
-
-✨ **Anything else that reflects your creativity and technical growth!**
+- 🧩 **Add a new feature** — loyalty system, product reviews, favorite drinks, dark/light theme switcher, etc.
+- ⚙️ **Integrate a tool or technology** — implement ESLint rules, Husky pre-commit hooks, unit tests, or CI/CD with GitHub Actions.
+- 🚀 **Migrate the project to a framework** — for example, rebuild it with React, Vue, or Angular (if you feel ready!).
+- 🗄️ **Enhance the back-end** — add new endpoints, improve error handling, or extend the existing API.
+- 🧠 **Implement performance or UX improvements** — lazy loading, accessibility features, or better mobile interactions.
+- 🌍 **Add localization** — support for multiple languages and user settings.
+- 💳 **Add payment simulation** or an order tracking page.
+- 📈 **Create an admin dashboard** for managing products or orders.
+- ✨ **Anything else that reflects your creativity and technical growth!**
 
 #### Backend Source Code (Optional)
 
@@ -39,13 +31,10 @@ If your feature requires backend changes, you may use and extend the backend pre
 At the end of the task, you’ll present your project to your mentor.
 Prepare a short presentation (5–10 minutes) where you:
 
-Explain your idea and what motivated you to choose it;
-
-Demonstrate how it works;
-
-Briefly describe the technologies, tools, or approaches you used;
-
-Share challenges you faced and how you solved them.
+- Explain your idea and what motivated you to choose it;
+- Demonstrate how it works;
+- Briefly describe the technologies, tools, or approaches you used;
+- Share challenges you faced and how you solved them.
 
 Be ready for your mentor to ask technical questions about your work — to understand how deeply you grasped the topic.
 
@@ -55,7 +44,7 @@ Be ready for your mentor to ask technical questions about your work — to under
 
 - **Creative Extension** — for your idea, implementation quality, and presentation.
 
-- **Technical Interview** — for your understanding of the project, technologies, and general front-end knowledge.
+- **Technical Interview** — checks your general understanding of front-end concepts.
 
 ## 💡 **Tips for Success**
 
