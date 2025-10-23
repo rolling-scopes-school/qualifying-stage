@@ -12,11 +12,7 @@ _Evaluate based on the scale and difficulty of the implemented feature._
 
 2️⃣ Understanding & Justification — **50** points
 
-_Student should clearly explain:_
-
-- _Why this feature was chosen (problem it solves, goals)_
-- _Considered solution options and the reasoning behind the choice_
-- _Technology decisions and structure of their code_
+_Student should clearly explain: why this feature was chosen (problem it solves, goals); considered solution options and the reasoning behind the choice; technology decisions and structure of their code_
 
 - Weak understanding - **10**
 - Good explanation, but limited technical depth - **30**
