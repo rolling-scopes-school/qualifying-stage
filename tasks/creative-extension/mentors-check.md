@@ -1,6 +1,6 @@
 ### ✅ Creative Extension Assessment Checklist (Mentor)
 
-Total: **230 points**
+Total: **250 points**
 
 1️⃣ Complexity & Effort — **100** points
 
@@ -24,7 +24,7 @@ _Student should clearly explain: why this feature was chosen (problem it solves,
 - Clear structure and confident delivery - **30**
 - Well-prepared presentation with visual support (slides, diagrams) - **50**
 
-4️⃣ Feature Stability & Code Quality — **30** points
+4️⃣ Feature Stability & Code Quality — **50** points
 
-- Noticeable issues in UI or code - **10**
-- Stable functionality, no obvious code problems - **30**
+- Noticeable issues in UI or code - **20**
+- Stable functionality, no obvious code problems - **50**

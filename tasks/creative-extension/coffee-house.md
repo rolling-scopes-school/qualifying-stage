@@ -28,7 +28,7 @@ If your feature requires backend changes, you may use and extend the backend pre
 
 ## 🧑‍🏫 Presentation & Interview
 
-At the end of the task, you’ll present your project to your mentor.
+At the end of the task, you will present your project to an interviewer (one of the mentors).
 Prepare a short presentation (5–10 minutes) where you:
 
 - Explain your idea and what motivated you to choose it;
@@ -36,11 +36,11 @@ Prepare a short presentation (5–10 minutes) where you:
 - Briefly describe the technologies, tools, or approaches you used;
 - Share challenges you faced and how you solved them.
 
-Be ready for your mentor to ask technical questions about your work — to understand how deeply you grasped the topic.
+Be prepared to answer technical questions about your work, as this will help assess how deeply you understand the topic.
 
 ## 🏆 Evaluation
 
-❗️ **Please note:** The presentation of your feature will be a part of the technical interview with your mentor. After the interview, you will receive two separate score:
+❗️ **Please note:** The presentation of your feature will be a part of the technical interview with mentor. After the interview, you will receive two separate score:
 
 - **Creative Extension** — for your idea, implementation quality, and presentation.
 
