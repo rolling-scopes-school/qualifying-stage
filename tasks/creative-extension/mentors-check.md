@@ -22,7 +22,7 @@ _Student should clearly explain: why this feature was chosen (problem it solves,
 
 - Improvised, low preparation - **10**
 - Clear structure and confident delivery - **30**
-- Well-prepared presentation with visual support (slides, diagrams) - **50**
+- Well-prepared presentation with optional visual support (slides, diagrams) - **50**
 
 4️⃣ Feature Stability & Code Quality — **50** points
 
