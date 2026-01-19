@@ -21,16 +21,16 @@ English only (assignments, communication, and interviews).
 
 ## Roadmap:
 
-### Week #1 ( September, 22 - September, 28 )
+### Week #1 ( February, 9 - February, 15 )
 - Test RSSchool App
 - [CV. Markdown & Git](<tasks/cv/git-markdown.md>)
 - [CV. HTML, CSS & Git Basics ](<tasks/cv/html-css-git.md>)
 
-### Week #2 - Week #3 ( September, 29 - October, 12 )
-- [Coffee-house](<tasks/coffee-shop-layout/coffee-shop-layout.md>)
+### Week #2 - Week #3 ( February, 16 - March, 1 )
+- [To be added soon]
 
-### Week #4 - Week #5 ( October, 13 - October, 26 )
-- [TypeScript. Coffee-house](<tasks/typescript/coffee-house.md>)
+### Week #4 - Week #5 ( March, 2 - March, 15 )
+- [To be added soon]
 
-### Week #6 - week #7 ( October, 27 - November, 2 )
-- [Self introduction](<tasks/self-introduction/en/self-introduction.md>)
+### Week #6 - week #7 ( March, 16 - March, 29 )
+- [To be added soon]
