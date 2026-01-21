@@ -23,7 +23,6 @@ English only (assignments, communication, and interviews).
 
 ### Week #1 ( February, 9 - February, 15 )
 - Test RSSchool App
-- [CV. Markdown & Git](<tasks/cv/git-markdown.md>)
 - [CV. HTML, CSS & Git Basics ](<tasks/cv/html-css-git.md>)
 
 ### Week #2 - Week #3 ( February, 16 - March, 1 )
