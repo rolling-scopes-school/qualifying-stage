@@ -26,10 +26,10 @@ English only (assignments, communication, and interviews).
 - [CV. HTML, CSS & Git Basics ](<tasks/cv/html-css-git.md>)
 
 ### Week #2 - Week #3 ( February, 16 - March, 1 )
-- [To be added soon]
+- [UI task. To be added soon]
 
 ### Week #4 - Week #5 ( March, 2 - March, 15 )
-- [To be added soon]
+- [TypeScript task. To be added soon]
 
 ### Week #6 - week #7 ( March, 16 - March, 29 )
 - [To be added soon]
