@@ -478,9 +478,5 @@ Differences in word width or letter spacing between the design and the implement
 ![DevTools scrollbar example](https://user-images.githubusercontent.com/73646765/223966120-845e2526-c54c-4611-8173-db5f9a2c3faa.png)
 
 # Useful links
-
-lemented using images instead of HTML/CSS**  
- (for example, screenshots of layout blocks inserted as images instead of proper markup):**–90 points\*\*
-
-- **Using frameworks, libraries, or technologies prohibited by the technical requirements**
-  (CSS frameworks, JavaScript frameworks, TypeScript, outdated or pre-built libraries): **–90 points**
+Fonts can be included either by downloading them locally or by linking them via a URL (for example, from [Google Fonts](https://fonts.google.com/)).
+If the required font cannot be found or downloaded, it is allowed to replace it with a font of the same type (serif / sans-serif) that is as close as possible in style.
