@@ -125,14 +125,4 @@ All errors found by the validator during the checking of your work are listed in
 
 ### Language Requirement
 
-- **+30 points**: The CV includes the following sections:
-  - **+5 points**: A brief **self-introduction**.
-  - **+5 points**: **Contact information** (e.g., email, GitHub, LinkedIn).
-  - **+5 points**: A list of **skills** relevant to the student.
-  - **+5 points**: A **code example** added using proper HTML characters or code tags—not as an image.
-  - **+5 points**: A **list of educational projects** with links to either the source code or deployed applications.
-  - **+5 points**: Information about **education** and **English proficiency level**.
-
-### Language Requirement
-
 - **+10 points**: The CV content is written entirely in **English**, showcasing international standards.
