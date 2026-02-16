@@ -99,7 +99,8 @@ assets/
 **Pages Folder**  
 Inside the pages folder, create separate folders for each page.
 Each page folder should contain the following files related to that specific page: `.html`, `.css`, `.js`
-An example structure for the pages folder:
+
+**An example structure for the pages folder:**
 
 ```text
 pages/
@@ -225,7 +226,7 @@ Maximum score: **435**
 
 2. **Header** (`<header>` should contain only the logo, navigation menu, and social media icons) - **(10 points total)**
    - [ ] The logo should be positioned on the **left** - **(+2)**
-   - [ ] The navigation menu should be **interactive**. By default, the first item `ABOUT` should be **highlighted** - **(+2)**
+   - [ ] The navigation menu should be **interactive**. By default, the first item `ABOUT` should be **highlighted**. Clicking on a menu item should navigate to the corresponding page - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+2)**
    - [ ] The page should contain an `<h1>` element (e.g. "Online Zoo") - **(+2)**
    - [ ] The header **should not be sticky**. When scrolling, it should remain in its original position - **(+2)**
@@ -242,7 +243,7 @@ Maximum score: **435**
    - [ ] All elements in this section should be present - **(+5)**
 
 6. Section **MEET SOME OF OUR PETS** - **(18 points total)**
-   - [ ] The left (`<`) and right (`>`) buttons should be **interactive** - **(+4)**
+   - [ ] The left (`<`) and right (`>`) buttons should be **interactive** and fully functional, allowing users to navigate through the slider - **(+4)**
    - [ ] Animal cards should be **interactive** (at least the cursor should change). Clicking anywhere on a card should navigate to the animal page - **(+10)**
    - [ ] The `VIEW LIVE CAM` button inside each card should be **interactive** - **(+2)**
    - [ ] The `CHOOSE YOUR FAVORITE` button should be **interactive** - **(+2)**
@@ -264,7 +265,7 @@ Maximum score: **435**
 
 10. **Footer** (`<footer>` contains the navigation menu, logos, donation buttons, and social media icons) - **(10 points total)**
 
-- [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted - **(+4)**
+- [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted. Clicking on a menu item should navigate to the corresponding page - **(+4)**
 - [ ] The `DONATE FOR VOLUNTEERS` button should be **interactive** - **(+2)**
 - [ ] The social media icons panel should be **interactive** - **(+4)**
 
@@ -277,7 +278,7 @@ Maximum score: **435**
 
 2. **Header** (`<header>` should contain only the logo, navigation menu, and social media icons) - **(10 points total)**
    - [ ] The logo should be positioned on the **left** - **(+2)**
-   - [ ] The navigation menu should be **interactive**. By default, the first item `MAP` should be **highlighted** - **(+2)**
+   - [ ] The navigation menu should be **interactive**. By default, the first item `MAP` should be **highlighted**. Clicking on a menu item should navigate to the corresponding page - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+2)**
    - [ ] The page should contain an `<h1>` element (e.g. "Online Zoo") - **(+2)**
    - [ ] The header **should not be sticky**. When scrolling, it should remain in its original position - **(+2)**
@@ -287,7 +288,7 @@ Maximum score: **435**
    - [ ] The map should be non-scalable (visual zoom via layout changes is allowed, but no interactive map scaling) - **(+10)**
 
 4. **Footer** (`<footer>` contains the navigation menu, logos, donation buttons, and social media icons) - **(10 points total)**
-   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted - **(+4)**
+   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted. Clicking on a menu item should navigate to the corresponding page - **(+4)**
    - [ ] The `DONATE FOR VOLUNTEERS` button should be **interactive** - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+4)**
 
@@ -305,7 +306,7 @@ Maximum score: **435**
 
 2. **Header** (`<header>` should contain only the logo, navigation menu, and social media icons) - **(10 points total)**
    - [ ] The logo should be positioned on the **left** - **(+2)**
-   - [ ] The navigation menu should be **interactive**. By default, the first item `ZOOS` should be **highlighted** - **(+2)**
+   - [ ] The navigation menu should be **interactive**. By default, the first item `ZOOS` should be **highlighted**. Clicking on a menu item should navigate to the corresponding page - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+2)**
    - [ ] The page should contain an `<h1>` element (e.g. "Online Zoo") - **(+2)**
    - [ ] The header **should not be sticky**. When scrolling, it should remain in its original position - **(+2)**
@@ -342,7 +343,7 @@ Maximum score: **435**
    - [ ] All elements in this section should be present - **(+8)**
 
 6. **Footer** (`<footer>` contains the navigation menu, logos, donation buttons, and social media icons) - **(10 points total)**
-   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted - **(+4)**
+   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted. Clicking on a menu item should navigate to the corresponding page - **(+4)**
    - [ ] The `DONATE FOR VOLUNTEERS` button should be **interactive** - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+4)**
 
@@ -357,7 +358,7 @@ Maximum score: **435**
 
 2. **Header** (`<header>` should contain only the logo, navigation menu, and social media icons - **(10 points total)**
    - [ ] The logo should be positioned on the **left** - **(+2)**
-   - [ ] The navigation menu should be **interactive**. By default, the first item `CONTACT US` should be **highlighted** - **(+2)**
+   - [ ] The navigation menu should be **interactive**. By default, the first item `CONTACT US` should be **highlighted**. Clicking on a menu item should navigate to the corresponding page - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+2)**
    - [ ] The page should contain an `<h1>` element (e.g. "Online Zoo") - **(+2)**
    - [ ] The header **should not be sticky**. When scrolling, it should remain in its original position - **(+2)**
@@ -369,7 +370,7 @@ Maximum score: **435**
    - [ ] The `SEND MESSAGE` button should be **interactive** - **(+2)**
 
 4. **Footer** (`<footer>` contains the navigation menu, logos, donation buttons, and social media icons) - **(10 points total)**
-   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted - **(+4)**
+   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted. Clicking on a menu item should navigate to the corresponding page - **(+4)**
    - [ ] The `DONATE FOR VOLUNTEERS` button should be **interactive** - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+4)**
 
