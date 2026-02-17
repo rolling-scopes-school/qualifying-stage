@@ -211,9 +211,10 @@ Maximum score: **435**
 
 ## Layout validation — 20 points
 
-- [ ] HTML markup is valid according to [https://validator.w3.org/](https://validator.w3.org/) — **(16 points total)**
-  - No errors or warnings: **+2 points per page** (Home, Map, ZOOS, Contact Us)
+- [ ] HTML markup is valid according to [https://validator.w3.org/](https://validator.w3.org/) — **(maximum 16 points total)**
+  - No errors or warnings: **+4 points per page** (Home, Map, ZOOS, Contact Us)
   - Warnings only (no errors): **+2 points per page** (Home, Map, ZOOS, Contact Us)
+  - Errors present — **0 points for that page**
 - [ ] Favicon is added to all pages — **(+2)**
 - [ ] Semantic HTML structure is used (header, main, section, footer) — **(+2)**
 
