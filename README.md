@@ -29,7 +29,7 @@ English only (assignments, communication, and interviews).
 - [UI task](<tasks/online-zoo/online-zoo-layout.md>)
 
 ### Week #4 - Week #5 ( March, 2 - March, 15 )
-- [TypeScript task. To be added soon]
+- [TypeScript task](<tasks/typescript/online-zoo.md>)
 
 ### Week #6 - week #7 ( March, 16 - March, 29 )
 - [To be added soon]
