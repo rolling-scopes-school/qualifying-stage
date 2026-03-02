@@ -193,7 +193,7 @@ window should contain a cross button at the right top corner to close the modal.
    - Design of the message and notification is up to you.
 
 
-### Sign In Page
+### Sign In
 1. **Input Fields**
     - The user should input their **login** and **password**.
 
@@ -226,7 +226,7 @@ window should contain a cross button at the right top corner to close the modal.
 7. **Successful Login**
     - Upon successful login, redirect the user to the **Menu** page.
 
-### Registration Page
+### Registration
 1. **Input Fields and Validation**
     - **Login**:
         - At least 3 characters, start with a letter, only English letters are allowed.
