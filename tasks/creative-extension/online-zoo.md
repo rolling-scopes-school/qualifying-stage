@@ -25,7 +25,7 @@ Choose and implement **one or more** enhancements that demonstrate your creativi
 
 If your feature requires backend changes, you may use and extend the backend prepared for the previous part of the assignment:
 
-🔗 <https://github.com/AlreadyBored/coffee-shop-be>
+🔗 <https://github.com/AlreadyBored/online-zoo-be>
 
 ## Presentation & Interview
 
