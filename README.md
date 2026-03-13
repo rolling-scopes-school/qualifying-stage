@@ -32,4 +32,5 @@ English only (assignments, communication, and interviews).
 - [TypeScript task](<tasks/typescript/online-zoo.md>)
 
 ### Week #6 - week #7 ( March, 16 - March, 29 )
-- [To be added soon]
+- [Creative Extension](<tasks/creative-extension/online-zoo.md>)
+
