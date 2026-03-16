@@ -23,7 +23,7 @@ English only (assignments, communication, and interviews).
 
 ### Week #1 ( February, 9 - February, 15 )
 - Test RSSchool App
-- [CV. HTML, CSS & Git Basics ](<tasks/cv/html-css-git.md>)
+- [CV. HTML, CSS & Git Basics](<tasks/cv/html-css-git.md>)
 
 ### Week #2 - Week #3 ( February, 16 - March, 1 )
 - [UI task](<tasks/online-zoo/online-zoo-layout.md>)
@@ -33,4 +33,7 @@ English only (assignments, communication, and interviews).
 
 ### Week #6 - week #7 ( March, 16 - March, 29 )
 - [Creative Extension](<tasks/creative-extension/online-zoo.md>)
+
+### Week #7 ( March, 22 - March, 29 )
+- [Self introduction](<tasks/self-introduction/self-into-with-coordinator.md>)
 
