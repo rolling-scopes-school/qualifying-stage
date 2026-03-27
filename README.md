@@ -37,3 +37,6 @@ English only (assignments, communication, and interviews).
 ### Week #7 ( March, 22 - March, 29 )
 - [Self introduction](<tasks/self-introduction/self-into-with-coordinator.md>)
 
+### Week #8-10 (March, 30 - April, 19 )
+- [Cross Interview](<tasks/cross-interview/cross-interview.md>)
+
