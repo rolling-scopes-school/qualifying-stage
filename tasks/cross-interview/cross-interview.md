@@ -537,6 +537,24 @@ Create a file named `contact-info.md` with the following structure:
 7. **Flexibility**: Adapt difficulty based on candidate's level
 8. **Positive Attitude**: Create a comfortable learning environment
 
+## Evaluation Criteria 📊
+
+Since the goal of this task is to help students overcome their fear of interviews, learn to manage nervousness, practice
+expressing their thoughts clearly on given topics, and identify their strengths and weaknesses, **there are ONLY TWO** 
+possible score variants:
+
+**1 point** - Student submitted their contact information, scheduled interview dates, attended the cross-interviews, 
+and made an effort to demonstrate their skills and knowledge.
+
+**0 points** - Student did not submit their contact information, did not attend scheduled interviews, or did not attempt
+to answer at least one question during the cross-interviews.
+
+**Task coefficient: 100** - This means the final score will be multiplied by 100.
+
+**Note**: This task is about practice and learning, not about being perfect. The focus is on participation, effort, 
+and personal growth through the interview experience. Coordinators and mentors will review the recordings and provide 
+feedback when necessary to help you improve.
+
 ## FAQ ❓
 
 **Q: What if I can't answer a question during my interview?**
