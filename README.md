@@ -1,8 +1,8 @@
 
-# RS School. Short track. Qualifying stage
+# RS School. Short track
 
 ## Overview
-**The Qualifying Stage** is designed to evaluate and solidify students' core frontend development skills before proceeding to advanced training in the Short Track. 
+**Short track** is designed to evaluate and solidify students' core frontend development skills before proceeding to advanced training in the Framework course. 
 
 Throughout this stage, students work on practical assignments: building a personal CV page, engineering a responsive web application using Vanilla TypeScript, HTML, and SCSS, enhancing their project with custom creative features, practicing soft skills through an English self-introduction, and conducting peer-to-peer technical cross-interviews.
 
