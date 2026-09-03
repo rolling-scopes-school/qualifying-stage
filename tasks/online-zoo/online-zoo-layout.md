@@ -99,7 +99,8 @@ assets/
 **Pages Folder**  
 Inside the pages folder, create separate folders for each page.
 Each page folder should contain the following files related to that specific page: `.html`, `.css`, `.js`
-An example structure for the pages folder:
+
+**An example structure for the pages folder:**
 
 ```text
 pages/
@@ -210,9 +211,10 @@ Maximum score: **435**
 
 ## Layout validation — 20 points
 
-- [ ] HTML markup is valid according to [https://validator.w3.org/](https://validator.w3.org/) — **(16 points total)**
-  - No errors or warnings: **+2 points per page** (Home, Map, ZOOS, Contact Us)
+- [ ] HTML markup is valid according to [https://validator.w3.org/](https://validator.w3.org/) — **(maximum 16 points total)**
+  - No errors or warnings: **+4 points per page** (Home, Map, ZOOS, Contact Us)
   - Warnings only (no errors): **+2 points per page** (Home, Map, ZOOS, Contact Us)
+  - Errors present — **0 points for that page**
 - [ ] Favicon is added to all pages — **(+2)**
 - [ ] Semantic HTML structure is used (header, main, section, footer) — **(+2)**
 
@@ -225,7 +227,7 @@ Maximum score: **435**
 
 2. **Header** (`<header>` should contain only the logo, navigation menu, and social media icons) - **(10 points total)**
    - [ ] The logo should be positioned on the **left** - **(+2)**
-   - [ ] The navigation menu should be **interactive**. By default, the first item `ABOUT` should be **highlighted** - **(+2)**
+   - [ ] The navigation menu should be **interactive**. By default, the first item `ABOUT` should be **highlighted**. Clicking on a menu item should navigate to the corresponding page - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+2)**
    - [ ] The page should contain an `<h1>` element (e.g. "Online Zoo") - **(+2)**
    - [ ] The header **should not be sticky**. When scrolling, it should remain in its original position - **(+2)**
@@ -242,7 +244,7 @@ Maximum score: **435**
    - [ ] All elements in this section should be present - **(+5)**
 
 6. Section **MEET SOME OF OUR PETS** - **(18 points total)**
-   - [ ] The left (`<`) and right (`>`) buttons should be **interactive** - **(+4)**
+   - [ ] The left (`<`) and right (`>`) buttons should be **interactive** and fully functional, allowing users to navigate through the slider - **(+4)**
    - [ ] Animal cards should be **interactive** (at least the cursor should change). Clicking anywhere on a card should navigate to the animal page - **(+10)**
    - [ ] The `VIEW LIVE CAM` button inside each card should be **interactive** - **(+2)**
    - [ ] The `CHOOSE YOUR FAVORITE` button should be **interactive** - **(+2)**
@@ -264,7 +266,7 @@ Maximum score: **435**
 
 10. **Footer** (`<footer>` contains the navigation menu, logos, donation buttons, and social media icons) - **(10 points total)**
 
-- [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted - **(+4)**
+- [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted. Clicking on a menu item should navigate to the corresponding page - **(+4)**
 - [ ] The `DONATE FOR VOLUNTEERS` button should be **interactive** - **(+2)**
 - [ ] The social media icons panel should be **interactive** - **(+4)**
 
@@ -277,7 +279,7 @@ Maximum score: **435**
 
 2. **Header** (`<header>` should contain only the logo, navigation menu, and social media icons) - **(10 points total)**
    - [ ] The logo should be positioned on the **left** - **(+2)**
-   - [ ] The navigation menu should be **interactive**. By default, the first item `MAP` should be **highlighted** - **(+2)**
+   - [ ] The navigation menu should be **interactive**. By default, the first item `MAP` should be **highlighted**. Clicking on a menu item should navigate to the corresponding page - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+2)**
    - [ ] The page should contain an `<h1>` element (e.g. "Online Zoo") - **(+2)**
    - [ ] The header **should not be sticky**. When scrolling, it should remain in its original position - **(+2)**
@@ -287,7 +289,7 @@ Maximum score: **435**
    - [ ] The map should be non-scalable (visual zoom via layout changes is allowed, but no interactive map scaling) - **(+10)**
 
 4. **Footer** (`<footer>` contains the navigation menu, logos, donation buttons, and social media icons) - **(10 points total)**
-   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted - **(+4)**
+   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted. Clicking on a menu item should navigate to the corresponding page - **(+4)**
    - [ ] The `DONATE FOR VOLUNTEERS` button should be **interactive** - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+4)**
 
@@ -305,7 +307,7 @@ Maximum score: **435**
 
 2. **Header** (`<header>` should contain only the logo, navigation menu, and social media icons) - **(10 points total)**
    - [ ] The logo should be positioned on the **left** - **(+2)**
-   - [ ] The navigation menu should be **interactive**. By default, the first item `ZOOS` should be **highlighted** - **(+2)**
+   - [ ] The navigation menu should be **interactive**. By default, the first item `ZOOS` should be **highlighted**. Clicking on a menu item should navigate to the corresponding page - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+2)**
    - [ ] The page should contain an `<h1>` element (e.g. "Online Zoo") - **(+2)**
    - [ ] The header **should not be sticky**. When scrolling, it should remain in its original position - **(+2)**
@@ -342,7 +344,7 @@ Maximum score: **435**
    - [ ] All elements in this section should be present - **(+8)**
 
 6. **Footer** (`<footer>` contains the navigation menu, logos, donation buttons, and social media icons) - **(10 points total)**
-   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted - **(+4)**
+   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted. Clicking on a menu item should navigate to the corresponding page - **(+4)**
    - [ ] The `DONATE FOR VOLUNTEERS` button should be **interactive** - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+4)**
 
@@ -357,7 +359,7 @@ Maximum score: **435**
 
 2. **Header** (`<header>` should contain only the logo, navigation menu, and social media icons - **(10 points total)**
    - [ ] The logo should be positioned on the **left** - **(+2)**
-   - [ ] The navigation menu should be **interactive**. By default, the first item `CONTACT US` should be **highlighted** - **(+2)**
+   - [ ] The navigation menu should be **interactive**. By default, the first item `CONTACT US` should be **highlighted**. Clicking on a menu item should navigate to the corresponding page - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+2)**
    - [ ] The page should contain an `<h1>` element (e.g. "Online Zoo") - **(+2)**
    - [ ] The header **should not be sticky**. When scrolling, it should remain in its original position - **(+2)**
@@ -369,7 +371,7 @@ Maximum score: **435**
    - [ ] The `SEND MESSAGE` button should be **interactive** - **(+2)**
 
 4. **Footer** (`<footer>` contains the navigation menu, logos, donation buttons, and social media icons) - **(10 points total)**
-   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted - **(+4)**
+   - [ ] The navigation menu should be **interactive**. By default, menu items should **not** be highlighted. Clicking on a menu item should navigate to the corresponding page - **(+4)**
    - [ ] The `DONATE FOR VOLUNTEERS` button should be **interactive** - **(+2)**
    - [ ] The social media icons panel should be **interactive** - **(+4)**
 
@@ -478,9 +480,5 @@ Differences in word width or letter spacing between the design and the implement
 ![DevTools scrollbar example](https://user-images.githubusercontent.com/73646765/223966120-845e2526-c54c-4611-8173-db5f9a2c3faa.png)
 
 # Useful links
-
-lemented using images instead of HTML/CSS**  
- (for example, screenshots of layout blocks inserted as images instead of proper markup):**–90 points\*\*
-
-- **Using frameworks, libraries, or technologies prohibited by the technical requirements**
-  (CSS frameworks, JavaScript frameworks, TypeScript, outdated or pre-built libraries): **–90 points**
+Fonts can be included either by downloading them locally or by linking them via a URL (for example, from [Google Fonts](https://fonts.google.com/)).
+If the required font cannot be found or downloaded, it is allowed to replace it with a font of the same type (serif / sans-serif) that is as close as possible in style.

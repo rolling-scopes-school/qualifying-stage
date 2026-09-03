@@ -24,7 +24,8 @@ English only (assignments, communication, and interviews).
 ## Roadmap:
 
 ### Week #1 ( September, 7 - September, 13 )
-- Test RSSchool App
+- [Read School Documentation](https://rs.school/docs/short-track/course-overview)
+- [Test RSSchool App](https://app.rs.school/course/student/auto-test?course=js-fe-st-2026q3)
 - [CV. HTML, CSS & Git Basics](<tasks/cv/README.md>)
 
 ### Week #2 - ( September, 14 - September, 20 )
