@@ -6,7 +6,7 @@ help you improve your preparation.
 ## Task Objectives 🎯
 
 - Gain practical interview experience from both sides
-- Practice technical topics and communication skills
+- Practice technical topics(e.g [interview-topics](<./interview-topics.md>)) and communication skills
 - Help each other identify knowledge gaps
 - Build confidence before the actual technical screening
 
@@ -576,4 +576,3 @@ A: You can use Discord (with screen recording), Zoom, Google Meet, Microsoft Tea
 video/audio recording. Make sure to inform the interviewee that the session will be recorded before starting.
 
 Good luck with your cross-interviews! 🚀
-

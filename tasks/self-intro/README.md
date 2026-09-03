@@ -47,16 +47,3 @@ The maximum score for the task is **100 points**
    - The speaker demonstrates a good command of English, with clear pronunciation and appropriate vocabulary.
 3. **Presentation Skills** — 20 points 
    - The speaker maintains good eye contact, uses appropriate body language, and engages the audience effectively.
-
-### Useful links
-
-- [Video CV / Resume of a Computer Engineer: Anupma Raj](https://www.youtube.com/watch?v=dMBBrLGcsCI)
-- [Video CV/ Sample Video Resume of Full Stack Developer : HireFox](https://www.youtube.com/watch?v=PYuPmNFHTog)
-- [BEST VIDEO CV EVER  MARK LERUSTE](https://www.youtube.com/watch?v=c_PZTAW5piQ)
-- Presentations made by other students
-    - https://www.youtube.com/watch?v=A426pZuQIUk
-    - https://www.youtube.com/watch?v=a_KLPUaDi4g
-    - https://www.youtube.com/watch?v=cQVWIw85OAs
-    - https://www.youtube.com/watch?v=NNlEKrpeByM
-    - https://www.youtube.com/watch?v=CLTbVVw85hw
-    - https://www.youtube.com/watch?v=3j2vEycHWhs
