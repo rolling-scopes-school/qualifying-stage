@@ -1,16 +1,18 @@
+
 # RS School. Short track. Qualifying stage
 
 ## Overview
-**The Qualifying Stage** is designed to identify students who already meet most of the entry requirements for 
-advanced training, or who can quickly close the gaps in their knowledge. It serves as a checkpoint to confirm
-your technical foundation (Markdown, HTML, CSS, TypeScript, JavaScript, Git) and readiness to move on to the 
-Short Track.
+**The Qualifying Stage** is designed to evaluate and solidify students' core frontend development skills before proceeding to advanced training in the Short Track. 
+
+Throughout this stage, students work on practical assignments: building a personal CV page, engineering a responsive web application using Vanilla TypeScript, HTML, and SCSS, enhancing their project with custom creative features, practicing soft skills through an English self-introduction, and conducting peer-to-peer technical cross-interviews.
 
 ## Content includes:
 
-* Markdown
-* HTML/CSS (layout)
-* TypeScript/JavaScript/Git (combined block)
+* **HTML & CSS**: Semantic markup, responsive layout, SCSS.
+* **JavaScript & TypeScript**: Language fundamentals, DOM manipulation, asynchronous programming.
+* **Developer Tooling & Quality**: Git, modern bundlers, code quality tools, unit testing.
+* **Frontend Web Application**: Building a dynamic web application without external UI frameworks.
+* **Soft Skills & Communication**: English self-introduction, presentation, and technical cross-interview practice.
 
 
 ## Language: 
@@ -21,15 +23,31 @@ English only (assignments, communication, and interviews).
 
 ## Roadmap:
 
-### Week #1 ( February, 9 - February, 15 )
+### Week #1 ( September, 7 - September, 13 )
 - Test RSSchool App
-- [CV. HTML, CSS & Git Basics ](<tasks/cv/html-css-git.md>)
+- [CV. HTML, CSS & Git Basics](<tasks/cv/README.md>)
 
-### Week #2 - Week #3 ( February, 16 - March, 1 )
-- [UI task. To be added soon]
+### Week #2 - ( September, 14 - September, 20 )
+- [Minigames task. Overview](<tasks/minigames/README.md>)
+- [Minigames task. Story 1](<tasks/minigames/story-1.md>)
 
-### Week #4 - Week #5 ( March, 2 - March, 15 )
-- [TypeScript task. To be added soon]
+### Week #3 -  ( September, 21 - September, 27 )
+- [Minigames task. Story 2](<tasks/minigames/story-2.md>)
 
-### Week #6 - week #7 ( March, 16 - March, 29 )
-- [To be added soon]
+### Week #4 - ( September, 28 - October, 4 )
+- [Minigames task. Story 3](<tasks/minigames/story-3.md>)
+
+### Week #5 - ( October, 5 - October, 11 )
+- [Minigames task. Story 4](<tasks/minigames/story-4.md>)
+
+### Week #6 - ( October, 12 - October, 18 )
+- [Minigames task. Game](<tasks/minigames/README.md>)
+
+### Week #7 - ( October, 19 - October, 25 )
+- [Creative Extension](<tasks/creative-extension/mini-games.md>)
+
+### Week #8 - ( October, 26 - November, 1 )
+- [Self introduction](<tasks/self-intro/README.md>)
+
+### Week #9-10 (November, 2 - November, 22 )
+- [Cross Interview](<tasks/cross-interview/README.md>)
