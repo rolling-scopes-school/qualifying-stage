@@ -42,13 +42,15 @@ English only (assignments, communication, and interviews).
 - [Minigames task. Story 4](<tasks/minigames/story-4.md>)
 
 ### Week #6 - ( October, 12 - October, 18 )
-- [Minigames task. Game](<tasks/minigames/README.md>)
+- [Minigames task. Game. Story 1](<tasks/minigames/README.md>)
 
 ### Week #7 - ( October, 19 - October, 25 )
-- [Creative Extension](<tasks/creative-extension/mini-games.md>)
+- [Minigames task. Game. Story 2](<tasks/minigames/README.md>)
 
 ### Week #8 - ( October, 26 - November, 1 )
+- [Creative Extension](<tasks/creative-extension/mini-games.md>)
 - [Self introduction](<tasks/self-intro/README.md>)
 
 ### Week #9-10 (November, 2 - November, 22 )
+- [Creative Extension](<tasks/creative-extension/mini-games.md>)
 - [Cross Interview](<tasks/cross-interview/README.md>)
