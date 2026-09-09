@@ -46,10 +46,10 @@ All errors found by the validator during the checking of your work are listed in
    repository (`main`), there should be only one file, `README.md`.
 2. Create a branch `gh-pages` from the `main` branch.
 3. Create a branch `rsschool-cv-html` from the `gh-pages` branch.
-4. Maintain a commit history during the project. Follow the [commit guideline](https://docs.rs.school/#/en/git-convention), where the name of each commit should start with one of the specified prefixes: `init:`, `feat:`, `fix:`, `refactor:`, `docs:`.
+4. Maintain a commit history during the project. Follow the [commit guideline](https://rs.school/docs/git-convention), where the name of each commit should start with one of the specified prefixes: `init:`, `feat:`, `fix:`, `refactor:`, `docs:`.
 5. In the `rsschool-cv-html` branch, place the files `index.html` and `style.css`, adding templates with content to them.
 6. In the `README.md` file of the `rsschool-cv-html` branch, add a link like `https://GITHUB-USERNAME.github.io/rsschool-cv/`, replacing `GITHUB-USERNAME` with your GitHub username. This link will open the CV page as a fully styled webpage
-7. Create a Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch. The title of the Pull Request should be `HTML, CSS & Git Basics`. Follow the [Pull Request description template](https://docs.rs.school/#/en/pull-request-review-process?id=Требования-к-pull-request-pr). Merge the Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch.
+7. Create a Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch. The title of the Pull Request should be `HTML, CSS & Git Basics`. Follow the [Pull Request description template](https://rs.school/docs/short-track/pull-request-requirements). Merge the Pull Request from the `rsschool-cv-html` branch to the `gh-pages` branch.
 
 ## How to Submit the CV. Cross-Check Assignment
 
