@@ -1,0 +1,16 @@
+# Task RSS-QS-1-2-1: Configure bundler (10 points)
+
+## Description
+
+Set up and configure a bundler (e.g., Webpack, Vite, Parcel, Rollup, or other) for the project, supporting both development and production build modes.
+
+## Acceptance Criteria
+
+- A bundler (e.g., Webpack, Vite, Parcel, Rollup, or other) is set up and integrated with the project.
+- The bundler configuration supports both development and production build modes.
+
+### Useful links to popular bundlers
+
+- [Webpack](https://webpack.js.org/)
+- [Vite](https://vitejs.dev/)
+- [Parcel](https://parceljs.org/)
