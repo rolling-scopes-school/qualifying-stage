@@ -8,5 +8,5 @@ Use [Story 1](../story-1/RSS-QS-1-4-7-footer.md) as the source of truth for the 
 ## Acceptance Criteria
 
 - Follow the footer requirements defined in [Story 1](../story-1/RSS-QS-1-4-7-footer.md).
-- Navigation and link behavior follow [MiniGames Common SPA Navigation Requirements (Story 2)](../../common-spa-navigation-requirements.md). This is a mandatory criterion.
+- Navigation and link behavior follow [MiniGames Common SPA Navigation Requirements (Story 2)](common-spa-navigation-requirements.md). This is a mandatory criterion.
 - The footer is shared by both pages and is not duplicated in the codebase.

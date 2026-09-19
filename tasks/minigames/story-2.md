@@ -14,8 +14,8 @@ Total: **257 points**
 Work for this stage should follow the common project rules:
 
 - [MiniGames Common Requirements](common-project-requirements.md)
-- [MiniGames Common SPA Navigation Requirements (Story 2)](common-spa-navigation-requirements.md)
-- [MiniGames Common Game Details Content Requirements (Story 2)](common-game-details-content-requirements.md)
+- [MiniGames Common SPA Navigation Requirements (Story 2)](tasks/story-2/common-spa-navigation-requirements.md)
+- [MiniGames Common Game Details Content Requirements (Story 2)](tasks/story-2/common-game-details-content-requirements.md)
 
 ## Key Resources
 

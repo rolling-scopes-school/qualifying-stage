@@ -19,7 +19,7 @@ At this stage, **only the slider logic is evaluated**. Pixel-perfect accuracy is
   - **Cards with rendered width of 288px or larger** display full information overlay on the bottom gradient: game **title**, **likes**, and **rating stars** (all three elements per mockup).
   - **Cards with rendered width smaller than 288px** display **only the image** (no title, no rating, no likes text, no info overlay — the card is purely visual).
 - **Title Text Truncation on Slider Cards:** If the game title on an info-enabled slider card (≥288px) does not fit into the allocated single-line space, it should be truncated with a trailing ellipsis (`…`) via CSS.
-- **Card Click Opens Game Details Dialog:** Clicking on any slider card (regardless of its current displayed size) opens the same Game Details dialog as clicking a game card from the Library page. Dialog content follows [MiniGames Common Game Details Content Requirements (Story 2)](../../common-game-details-content-requirements.md).
+- **Card Click Opens Game Details Dialog:** Clicking on any slider card (regardless of its current displayed size) opens the same Game Details dialog as clicking a game card from the Library page. Dialog content follows [MiniGames Common Game Details Content Requirements (Story 2)](common-game-details-content-requirements.md).
 - Slider movement is available in both directions.
 - The slider can be moved by swipe gesture.
 - The slider can be moved by arrow buttons.
