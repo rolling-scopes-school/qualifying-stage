@@ -11,7 +11,12 @@ The menu is triggered by a burger button and covers the full available screen sp
 - A burger menu button appears at tablet width (≤ 768px) and is hidden on desktop.
 - Clicking the burger button opens the full-screen mobile navigation menu.
 - The opening transition is animated smoothly. The specific animation style is left to the student's discretion.
-- The burger button transforms into a close (×) button when the menu is open; the transformation itself (icon change and any color shift) is animated smoothly.
+- ~~The burger button transforms into a close (×) button when the menu is open; the transformation itself (icon change and any color shift) is animated smoothly.~~
+
+> Note from author:
+>
+> The requirement above about the burger button transforming smoothly into a close button was removed because it does not match the mockup: the padding/spacing differs between the Home page header and the mobile menu, so a smooth in-place icon transformation is not applicable.
+
 - The mobile menu occupies the full available screen area and is laid out responsively according to the mockup.
 - Navigation links point to the Home page.
 - Buttons inside the menu open the Auth dialog.
