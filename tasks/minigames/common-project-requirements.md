@@ -47,7 +47,6 @@ The project is divided into separate stories (stages). To ensure that cross-chec
 
 - After completing the story and creating the final Pull Request, go to the RS App at <https://app.rs.school/>.
 - Select **Cross-Check: Submit**, choose the relevant task from the dropdown menu, and add the unmerged **Pull Request link** in the **Solution URL** field.
-  elect **Cross-Check: Submit**, choose the relevant task from the dropdown menu, and add the unmerged **Pull Request link** in the **Solution URL** field.
 - Click the **Submit** button.
 
 > **Submission Recommendations**
