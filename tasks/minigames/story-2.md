@@ -14,6 +14,8 @@ Total: **257 points**
 Work for this stage should follow the common project rules:
 
 - [MiniGames Common Requirements](common-project-requirements.md)
+- [MiniGames Common SPA Navigation Requirements (Story 2)](common-spa-navigation-requirements.md)
+- [MiniGames Common Game Details Content Requirements (Story 2)](common-game-details-content-requirements.md)
 
 ## Key Resources
 
@@ -25,7 +27,7 @@ Work for this stage should follow the common project rules:
 
 > **Note on Backend Integration & Mock Data**
 >
-> - Backend integration is strictly out of scope for this stage and we're not implemented it.
+> - Backend integration is strictly out of scope for this stage and it is not implemented.
 > - The provided mock data is optional and intended solely to ease the eventual transition to the API in future stages. You are welcome to shape your data models around it, but you are **not required** to use it.
 > - Please note that the real backend is still under active development, so the final API endpoints and data structure may differ slightly from the current mocks.
 
@@ -53,7 +55,7 @@ Work for this stage should follow the common project rules:
 
 ## Global Layout Verification (12 points)
 
-- (12 points) Global semantic/layout validation. [RSS-QS-2-6-1](tasks/story-2/RSS-QS-2-6-1-global-semantic-validation.md)
+- (12 points) Global semantic/layout validation. [RSS-QS-2-4-1](tasks/story-2/RSS-QS-2-4-1-global-semantic-validation.md)
 
 ## Penalties
 

@@ -13,11 +13,13 @@ At this stage, **only the slider logic is evaluated**. Pixel-perfect accuracy is
 
 - The slider preserves the layout requirements and card composition defined by the mockup at all project breakpoints.
 - At each breakpoint, the carousel displays the number of cards and card sizes defined in the mockup.
+- **Slider card set:** the slider contains exactly **9** cards — the games marked `"featured": true` in the provided mock data ([`all-games-seed.json`](../mock-data/all-games-seed.json)). Using the mock file directly is optional; a static list equivalent to those 9 featured games is acceptable.
+- **Infinite loop:** the slider is circular/looped. After the last (9th) card, navigation continues to the first card, and before the first card it continues to the last card, in both directions, without a hard stop.
 - **Card Width Thresholds:**
   - **Cards with rendered width of 288px or larger** display full information overlay on the bottom gradient: game **title**, **likes**, and **rating stars** (all three elements per mockup).
   - **Cards with rendered width smaller than 288px** display **only the image** (no title, no rating, no likes text, no info overlay — the card is purely visual).
 - **Title Text Truncation on Slider Cards:** If the game title on an info-enabled slider card (≥288px) does not fit into the allocated single-line space, it should be truncated with a trailing ellipsis (`…`) via CSS.
-- **Card Click Opens Game Details Dialog:** Clicking on any slider card (regardless of its current displayed size) triggers the same Game Details dialog as clicking a game card from the Library page. The dialog should be opened with the data corresponding to the clicked slider card.
+- **Card Click Opens Game Details Dialog:** Clicking on any slider card (regardless of its current displayed size) opens the same Game Details dialog as clicking a game card from the Library page. Dialog content follows [MiniGames Common Game Details Content Requirements (Story 2)](../../common-game-details-content-requirements.md).
 - Slider movement is available in both directions.
 - The slider can be moved by swipe gesture.
 - The slider can be moved by arrow buttons.

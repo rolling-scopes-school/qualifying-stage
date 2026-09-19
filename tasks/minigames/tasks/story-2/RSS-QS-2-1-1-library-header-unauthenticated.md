@@ -8,6 +8,5 @@ Use [Story 1](../story-1/RSS-QS-1-4-1-header-unauthenticated.md) as the source o
 ## Acceptance Criteria
 
 - Follow the header requirements defined in [Story 1](../story-1/RSS-QS-1-4-1-header-unauthenticated.md).
+- Navigation and link behavior follow [MiniGames Common SPA Navigation Requirements (Story 2)](../../common-spa-navigation-requirements.md). This is a mandatory criterion.
 - The header is shared by both pages and is not duplicated in the codebase.
-- Navigation links that lead to the Library page should use SPA navigation and should not trigger a full page reload.
-- The navigation link corresponding to the currently open page is visually marked as active; the active state updates when navigating between the Home and Library pages.

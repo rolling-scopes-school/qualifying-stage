@@ -11,7 +11,6 @@ The section contains the section heading, a form for submitting a new comment, a
 - The textarea for composing a new comment is implemented according to the design style guide.
 - The textarea grows gradually as the user types, up to a maximum height of 88px; once that height is reached, an internal scrollbar appears to allow the user to scroll within the textarea.
 - The `Submit` button is styled correctly but does not perform any action at this stage; form submission will be implemented later.
-- Like buttons on comments are styled according to the design style guide, including hover, active, and toggled states.
 - Clicking a like button toggles it between its active and inactive states; both states are styled according to the design style guide.
 - Toggling a like on one comment does not affect the state of like buttons on any other comments.
 - No other actions are performed on like click at this stage.
