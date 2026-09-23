@@ -29,6 +29,9 @@ For each required state:
 3. Copy the rendered root markup (for example, the `html` element via Copy → Copy outerHTML).
 4. Paste it into <https://validator.w3.org/> using **Validate by Direct Input** and run validation.
 
+> [!CAUTION]
+> **Note:** Copying the `html` element via Copy → Copy outerHTML does **not** include `<!DOCTYPE html>`. Because of that, the W3C validator will report a doctype-related error even when the rest of the markup is valid. **Ignore this doctype error** and do not deduct points for it.
+
 Validate the following states separately:
 
 1. **Library page (default state):** open the Library page and validate the rendered markup.

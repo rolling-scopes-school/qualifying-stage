@@ -21,6 +21,8 @@ The section includes the page title, filtering controls, and sorting controls. C
 
 **Sorting control:**
 
+> **Author warning:** We discovered that the arrow icon in the sorting control was missing from the Figma design. The icon has been restored. Both design variants are considered correct — with the arrow icon and without it. Do not deduct points for either variant.
+
 - The currently selected sort method is always reflected in the control.
 - Clicking a sort option switches the selection; only one option can be active at a time.
 - Active, inactive, and hover states are styled according to the design style guide.
