@@ -25,6 +25,12 @@ Work for this stage should follow the common project rules:
 
 - Mock Data / API: [folder tasks/mock-data](tasks/mock-data)
 
+> **Note on Emojis vs Icons**
+>
+> - Emojis in Figma render in Apple style; on Windows (for example in Chrome) they may look different.
+> - Using native platform emojis instead of exact icon images is **allowed**.
+> - Visual differences caused by native emoji rendering must **not** affect the score.
+
 > **Note on Backend Integration & Mock Data**
 >
 > - Backend integration is strictly out of scope for this stage and it is not implemented.
