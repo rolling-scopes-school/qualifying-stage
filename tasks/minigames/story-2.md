@@ -69,5 +69,11 @@ Work for this stage should follow the common project rules:
 - `console.log` calls are present in the code: **-10 points per unique log, up to -30 points total**
 - Commits or Pull Request description do not follow the RS School style guide: **-30 points**
 - CSS properties are set with magic values instead of design tokens/constants: **-10 points per unique case, up to -50 points total**
+  > **Author note — scoring scope for magic values**
+  >
+  > Points may be deducted **only** for magic values in the token groups from the design-token requirements:
+  > **colors**, **sizes** (including **height** and **width**), **shadows**, **corner radii**, **button sizes**, **font families**, **font sizes**, **font weights**, and **breakpoints**.
+  >
+  > For any other CSS properties tokens are **recommended** but **not required**. Reviewers must **not** reduce the score for magic values outside the list above.
 - ESLint or Prettier errors are present in the code: **-5 points per error**
 - Presence of explicit `any` type in TypeScript code: **-5 points per occurrence**
