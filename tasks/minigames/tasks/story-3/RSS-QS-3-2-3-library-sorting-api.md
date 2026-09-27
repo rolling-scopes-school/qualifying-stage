@@ -1,4 +1,4 @@
-# Task RSS-QS-3-3-2: Library Game Sorting via API (35 points)
+# Task RSS-QS-3-2-3: Library Game Sorting via API (35 points)
 
 ## Description
 

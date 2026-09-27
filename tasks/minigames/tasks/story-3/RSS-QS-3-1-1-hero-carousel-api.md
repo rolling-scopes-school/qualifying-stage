@@ -1,4 +1,4 @@
-# Task RSS-QS-3-2-1: Hero Carousel / Slider API Integration (15 points)
+# Task RSS-QS-3-1-1: Hero Carousel / Slider API Integration (15 points)
 
 ## Description
 

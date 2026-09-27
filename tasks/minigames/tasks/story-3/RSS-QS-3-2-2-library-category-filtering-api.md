@@ -1,4 +1,4 @@
-# Task RSS-QS-3-3-1: Library Category Filtering via API (35 points)
+# Task RSS-QS-3-2-2: Library Category Filtering via API (35 points)
 
 ## Description
 

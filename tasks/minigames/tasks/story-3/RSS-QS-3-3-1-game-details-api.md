@@ -1,4 +1,4 @@
-# Task RSS-QS-3-5-1: Game Details Modal API Integration (30 points)
+# Task RSS-QS-3-3-1: Game Details Modal API Integration (30 points)
 
 ## Description
 
@@ -8,7 +8,7 @@ Load Game Details modal content from the backend API when the dialog is opened a
 
 - **Endpoint:** `GET /api/games/{gameSlug}`
 - **Path parameter:** `gameSlug` — kebab-case game identifier (example: `tukoni-forest-keepers`)
-- **Optional query parameter:** `userEmail` — used later for personalized like state;
+- **Optional query parameter:** `userEmail` — used later for personalized like state.
 - **Example:** `/api/games/tukoni-forest-keepers`
 
 ## Acceptance Criteria

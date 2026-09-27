@@ -1,4 +1,4 @@
-# Task RSS-QS-3-2-2: Top Players Leaderboard API Integration (15 points)
+# Task RSS-QS-3-1-2: Top Players Leaderboard API Integration (15 points)
 
 ## Description
 

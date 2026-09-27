@@ -20,19 +20,19 @@ The same rules apply to **pages**, **Library interactive controls**, and **modal
 
 List of navigable states that **should write to the URL** when changed by the user and **should be restored** (UI + required data fetch) when the URL is opened or reached via history:
 
-| Area    | State                        | Example URL shape                      |
-| ------- | ---------------------------- | -------------------------------------- |
-| Pages   | Active page (Home / Library) | `/`, `/home`, `/library`               |
-| Library | Category filter              | `category=<category-name>`             |
-| Library | Sort order                   | `sort=<sort-field>`                    |
-| Library | Pagination page              | `page=<page-number>`                   |
-| Dialogs | Game Details open + game id  | `?game=<game-id>` or `/game/<game-id>` |
-| Dialogs | Auth open + mode             | `?auth=login` or `?auth=register`      |
+| Area    | State                        | Example URL shape                              |
+| ------- | ---------------------------- | ---------------------------------------------- |
+| Pages   | Active page (Home / Library) | `/`, `/home`, `/library`                       |
+| Library | Category filter              | `category=<category-name>`                     |
+| Library | Sort order                   | `sort=<sort-field>`                            |
+| Library | Pagination page              | `page=<page-number>`                           |
+| Dialogs | Game Details open + game id  | `?game=<game-id>` or `/game/<game-id>`         |
+| Dialogs | Auth open + mode             | `?auth=login` or `?auth=register` th=register` |
 
 **Full examples:**
 
-- `/library?category=action&sort=rating-desc&page=2`
-- `/library?category=action&page=2&game=<game-id>`
+- `/library?category=puzzle&sort=rating-desc&page=2`
+- `/library?category=arcade&page=2&game=<game-id>`
 - `/?auth=login`
 - `/library?auth=register`
 
@@ -50,7 +50,7 @@ Opening a URL (new tab, paste, bookmark) must restore:
 
 - the correct page view;
 - Library: active category chip, selected sort option, current page, and the corresponding games request/result;
-- Dialogs: base page under the modal, automatically opened Game Details or Auth dialog; for game URLs — load that game’s details.
+- Dialogs: base page under the modal, automatically opened Game Details or Auth dialog; for game URLs — load that game's details.
 
 ### Browser History Controls
 

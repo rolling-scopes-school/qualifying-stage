@@ -1,4 +1,4 @@
-# Task RSS-QS-3-3-3: Library Pagination via API (40 points)
+# Task RSS-QS-3-2-4: Library Pagination via API (40 points)
 
 ## Description
 

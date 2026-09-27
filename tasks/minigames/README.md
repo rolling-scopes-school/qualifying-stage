@@ -28,10 +28,10 @@ Set up the project repository and tooling (bundler, TypeScript, ESLint, Prettier
 
 Implement the adaptive layout of the Library page, the Game Details dialog, and the interactive logic of the Home page slider.
 
-### [Story 3 — Backend API Integration & Authentication](story-3.md)
+### [Story 3 — Backend API Integration & Custom SPA Routing](story-3.md)
 
-Connect the application with the REST API for dynamic data fetching, category filtering, sorting, pagination, skeleton loading, snackbar, and authentication (Email/Password & Firebase Google OAuth).
+Connect the application with the REST API for dynamic public data (Home, Library filter/sort/pagination, Game Details, comments), shared loading/error/empty and Snackbar feedback, and custom SPA routing with URL/History synchronization (deep links, 404 page, empty-data and game-not-found states).
 
-### [Story 4 — Custom Routing & Unit Testing](story-4.md)
+### [Story 4 — Authentication & Unit Testing](story-4.md)
 
-Implement custom SPA routing without external libraries, synchronizing pages, filters, sorting, pagination, and modal dialogs with URL address bar and History API (deep-linking, 404 page, empty data & game-not-found banners). Configure Vitest/Jest unit testing, test scripts, exclusion rationale comments, and achieve code coverage.
+Implement authentication (email/password and Firebase Google OAuth), session-aware UI and guarded dialogs, and authenticated features (favorites, comment submit/like). Configure Vitest/Jest unit testing, test scripts, exclusion rationale comments, and achieve code coverage.

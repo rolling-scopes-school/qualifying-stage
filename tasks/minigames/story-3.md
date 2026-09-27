@@ -1,6 +1,6 @@
 # MiniGames Story 3
 
-Total: **365 points**
+Total: **310 points**
 
 ## Goal
 
@@ -34,26 +34,26 @@ Work for this stage should follow the common project rules:
 > - Backend REST API endpoints used in this story are treated as **public read** integrations for Home, Library, Game Details, and comments list.
 > - **Authenticated features** (auth, favorites toggle, comment submit/like, authenticated header) are **out of scope for Story 3** and are implemented in Story 4.
 
-## Home Page & API Integration: (45 points)
+## Home Page & API Integration (30 points)
 
-- (15 points) Hero Slider / Carousel API data fetching and rendering. [RSS-QS-3-2-1](tasks/story-3/RSS-QS-3-2-1-hero-carousel-api.md)
-- (15 points) Top Players Leaderboard API data fetching and rendering. [RSS-QS-3-2-2](tasks/story-3/RSS-QS-3-2-2-leaderboard-api.md)
+- (15 points) Hero Slider / Carousel API data fetching and rendering. [RSS-QS-3-1-1](tasks/story-3/RSS-QS-3-1-1-hero-carousel-api.md)
+- (15 points) Top Players Leaderboard API data fetching and rendering. [RSS-QS-3-1-2](tasks/story-3/RSS-QS-3-1-2-leaderboard-api.md)
 
-## Library Page & API Integration: (110 points)
+## Library Page & API Integration (125 points)
 
-- (15 points) Category filtering via API request. [RSS-QS-3-3-1](tasks/story-3/RSS-QS-3-3-1-library-category-filtering-api.md)
-- (15 points) Game sorting via API request. [RSS-QS-3-3-2](tasks/story-3/RSS-QS-3-3-2-library-sorting-api.md)
-- (15 points) Game cards list API data fetching and rendering. [RSS-QS-3-2-3](tasks/story-3/RSS-QS-3-2-3-home-game-cards-api.md)
-- (25 points) Pagination via API request. [RSS-QS-3-3-3](tasks/story-3/RSS-QS-3-3-3-library-pagination-api.md)
+- (15 points) Game cards list API data fetching and rendering. [RSS-QS-3-2-1](tasks/story-3/RSS-QS-3-2-1-library-game-cards-api.md)
+- (35 points) Category filtering via API request. [RSS-QS-3-2-2](tasks/story-3/RSS-QS-3-2-2-library-category-filtering-api.md)
+- (35 points) Game sorting via API request. [RSS-QS-3-2-3](tasks/story-3/RSS-QS-3-2-3-library-sorting-api.md)
+- (40 points) Pagination via API request. [RSS-QS-3-2-4](tasks/story-3/RSS-QS-3-2-4-library-pagination-api.md)
 
-## Game Details Dialog & API Integration (100 points)
+## Game Details Dialog & API Integration (60 points)
 
-- (30 points) Game details data API loading and rendering. [RSS-QS-3-5-1](tasks/story-3/RSS-QS-3-5-1-game-details-api.md)
-- (30 points) Game comments fetching. [RSS-QS-3-5-3](tasks/story-3/RSS-QS-3-5-3-game-comments-fetch-api.md)
+- (30 points) Game details data API loading and rendering. [RSS-QS-3-3-1](tasks/story-3/RSS-QS-3-3-1-game-details-api.md)
+- (30 points) Game comments fetching. [RSS-QS-3-3-2](tasks/story-3/RSS-QS-3-3-2-game-comments-fetch-api.md)
 
-## Custom SPA Routing & URL Synchronization (110 points)
+## Custom SPA Routing & URL Synchronization (95 points)
 
-- (80 points) Custom SPA Routing & URL Synchronization. [RSS-QS-3-4-1](tasks/story-3/RSS-QS-3-4-1-spa-router-url-synchronization.md)
+- (80 points) Custom SPA Routing & URL Synchronization (pages, Library filter/sort/pagination, dialogs; History API, deep links, Single Source of Truth). [RSS-QS-3-4-1](tasks/story-3/RSS-QS-3-4-1-spa-router-url-synchronization.md)
 - (15 points) 404 Not Found Page & Invalid Route Handling. [RSS-QS-3-4-2](tasks/story-3/RSS-QS-3-4-2-404-not-found-page.md)
 
 ## Penalties
