@@ -1,14 +1,77 @@
 # MiniGames Story 3
 
-Total: **473 points**
+Total: **365 points**
 
 ## Goal
 
-- Connect the MiniGames web application frontend with the backend REST API to dynamically fetch, display, filter, sort, and paginate data.
+- Connect the MiniGames web application frontend with the backend REST API to dynamically fetch, display, filter, sort, and paginate public data.
 - Implement UI loading states (skeleton loaders) and user feedback mechanisms (error banners, empty data placeholders, and custom Snackbar notifications).
-- Integrate Authentication (Email/Password & Firebase Google OAuth) with form validation, input locking during requests, and state persistence.
-- Handle interactive features for authenticated users (favorite games toggle, comment submissions, comment likes).
+- Implement a custom SPA routing system using pure TypeScript with History API integration, deep linking, and URL synchronization for pages, Library filters/sorting/pagination, and dialogs.
+- Handle navigation edge cases: dedicated 404 Not Found page, Library "Data Not Found" banner, and "Game Not Found" modal state.
+- Load Game Details and latest comments in read-only mode (authenticated mutations are deferred to Story 4).
 
-> [!CAUTION]
+## Common Requirements
+
+Work for this stage should follow the common project rules:
+
+- [MiniGames Common Requirements](common-project-requirements.md)
+
+## Key Resources
+
+- Figma Design: [project](https://www.figma.com/design/4MnLizE59gZI2DDxaSgZqi/MiniGames?node-id=0-1&m=dev&t=fsxihMHW5MYSxEkW-1)
+
+- Project Assets: [folder: tasks/assets](tasks/assets)
+
+- Backend API: [Base URL](https://faxb76kxra.execute-api.eu-central-1.amazonaws.com/api)
+
+- API Endpoint & Schema Specification: [doc URL](<[PLACEHOLDER_API_SCHEMA_URL](https://faxb76kxra.execute-api.eu-central-1.amazonaws.com/docs)>)
+
+> Note:
 >
-> Details for this part of the assignment will become available according to the course schedule.
+> - Backend REST API endpoints used in this story are treated as **public read** integrations for Home, Library, Game Details, and comments list.
+> - **Authenticated features** (auth, favorites toggle, comment submit/like, authenticated header) are **out of scope for Story 3** and are implemented in Story 4.
+
+## Home Page & API Integration: (30 points)
+
+- (15 points) Hero Slider / Carousel API data fetching and rendering. [RSS-QS-3-2-1](tasks/story-3/RSS-QS-3-2-1-hero-carousel-api.md)
+- (15 points) Top Players Leaderboard API data fetching and rendering. [RSS-QS-3-2-2](tasks/story-3/RSS-QS-3-2-2-leaderboard-api.md)
+
+## Library Page & API Integration: (90 points)
+
+- (30 points) Category filtering via API request. [RSS-QS-3-3-1](tasks/story-3/RSS-QS-3-3-1-library-category-filtering-api.md)
+- (30 points) Game sorting via API request. [RSS-QS-3-3-2](tasks/story-3/RSS-QS-3-3-2-library-sorting-api.md)
+- (30 points) Pagination via API request. [RSS-QS-3-3-3](tasks/story-3/RSS-QS-3-3-3-library-pagination-api.md)
+
+## Game Details Dialog & API Integration (75 points)
+
+- (15 points) Game details data API loading and rendering. [RSS-QS-3-5-1](tasks/story-3/RSS-QS-3-5-1-game-details-api.md)
+- (40 points) Dialog windows URL synchronization & Game Not Found modal state. [RSS-QS-3-5-2](tasks/story-3/RSS-QS-3-5-2-dialogs-url-sync.md)
+- (20 points) Game comments fetching (3 latest comments & total count, read-only). [RSS-QS-3-5-3](tasks/story-3/RSS-QS-3-5-3-game-comments-fetch-api.md)
+
+## Custom SPA Routing & URL Synchronization (110 points)
+
+- (40 points) Custom SPA Router Core & History API Navigation. [RSS-QS-3-4-1](tasks/story-3/RSS-QS-3-4-1-spa-router-history-api.md)
+- (30 points) 404 Not Found Page & Invalid Route Handling. [RSS-QS-3-4-2](tasks/story-3/RSS-QS-3-4-2-404-not-found-page.md)
+- (40 points) Library Query Parameters Synchronization & Data Not Found Banner. [RSS-QS-3-4-3](tasks/story-3/RSS-QS-3-4-3-library-query-params-sync.md)
+
+## General API Infrastructure & UI Feedback (60 points)
+
+- (50 points) Skeleton loaders, error banners, and empty data placeholders. [RSS-QS-3-1-1](tasks/story-3/RSS-QS-3-1-1-skeleton-loaders-error-empty-states.md)
+- (10 points) Snackbar notification component implementation. [RSS-QS-3-1-2](tasks/story-3/RSS-QS-3-1-2-snackbar-notification.md)
+
+## Penalties
+
+- The submitted cross-check link is not valid or is not a Pull Request link: **-20 points**
+- Changes were made after the deadline: **-40 points**
+- Main/base branch is named incorrectly (not following repository workflow guidelines): **-20 points**
+- The submitted Cross-Check Pull Request has been merged into the target branch: **-30 points**
+- Commits or Pull Request description do not follow the RS School style guide: **-30 points**
+- Failure to follow the branching strategy (e.g., implementing all tasks directly in a single branch without separate task branches): **-50 points**
+- Prohibited libraries listed in the requirements are used (e.g. third-party routing libraries like `react-router`, `navigo`, `page.js`): **-200 points**
+- Using standard browser `alert()` or `confirm()` dialogs: **-200 points**
+- Client-side filtering, sorting, or pagination applied instead of sending API requests to the backend server: **-200 points**
+- The entire layout or individual layout blocks are implemented using images: **-90 points**
+- `console.log` calls are present in the code: **-10 points per unique log, up to -30 points total**
+- CSS properties are set with magic values instead of design tokens/constants: **-10 points per unique case, up to -50 points total**
+- ESLint or Prettier errors are present in the code: **-5 points per error**
+- Presence of explicit `any` type in TypeScript code: **-5 points per occurrence**
