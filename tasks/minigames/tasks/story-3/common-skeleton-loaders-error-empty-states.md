@@ -20,3 +20,8 @@ These requirements apply to Story 3 tasks that load data from the backend REST A
 ## Consistent application
 
 - Loading, error, and empty states should be applied consistently across Home, Library, and Game Details data-driven sections implemented in this story.
+
+## Design freedom (not scored for visual match)
+
+- The visual design and layout of skeleton loaders, error banners, and empty-state placeholders are at the student's discretion.
+- Implementing them in the overall project style is **recommended**, but reviewers should **not** score whether the look matches project styles, motifs, colors, or Figma visuals.

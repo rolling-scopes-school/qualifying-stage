@@ -4,9 +4,17 @@
 
 Fetch and render the latest game comments and total comment count in the Game Details dialog from the backend API (read-only in this story).
 
+## API Endpoint Hint
+
+- **Endpoint:** `GET /api/games/{gameSlug}/comments`
+- **Query parameters:**
+  - `limit=3` — return the 3 latest comments for this story
+  - `sort=newest` — recommended for “latest comments” ordering
+- **Example:** `/api/games/tukoni-forest-keepers/comments?limit=3&sort=newest`
+
 ## Acceptance Criteria
 
-- **Latest Comments Fetch:** Load comments for the opened game from the API using a limit of 3 latest comments (e.g. `?limit=3`) unless the API specification defines an equivalent contract.
+- **Latest Comments Fetch:** Load comments for the opened game from `GET /api/games/{gameSlug}/comments` with `limit=3` .
 - **Comments List Rendering:** Render author name, comment text, likes count, and created time for each returned comment.
 - **Relative Time Formatting:** Convert API timestamps to a human-readable relative-time string before display:
   - `< 1 minute` → `just now`
@@ -18,4 +26,4 @@ Fetch and render the latest game comments and total comment count in the Game De
   - `≥ 1 year` → `1 year ago` / `2 years ago` / … (full-year increments)
 - **Total Count Header:** Retrieve the total number of comments for the game and display the exact count in the comments section header (e.g. `Comments (12)`).
 - Loading, error, empty, and Snackbar feedback follow [MiniGames Common Skeleton Loaders, Error Banners, and Empty States (Story 3)](common-skeleton-loaders-error-empty-states.md) and [MiniGames Common Snackbar Notification Requirements (Story 3)](common-snackbar-notification-requirements.md). This is a mandatory criterion.
-- **Guest-Safe Read-Only Behavior:** Comment posting, liking, and other authenticated mutations are out of scope for this task and remain disabled/locked for guests until Story 4.
+- **Guest-Safe Read-Only Behavior:** Comment posting, liking, and other authenticated mutations are out of scope for this task and will be implement at Story 4.

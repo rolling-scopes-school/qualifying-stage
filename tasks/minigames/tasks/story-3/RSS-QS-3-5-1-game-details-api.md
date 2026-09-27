@@ -4,9 +4,15 @@
 
 Load Game Details modal content from the backend API when the dialog is opened and render hero, info, and related sections from the response.
 
+## API Endpoint Hint
+
+- **Endpoint:** `GET /api/games/{gameSlug}`
+- **Path parameter:** `gameSlug` — kebab-case game identifier (example: `tukoni-forest-keepers`)
+- **Optional query parameter:** `userEmail` — used later for personalized like state;
+- **Example:** `/api/games/tukoni-forest-keepers`
+
 ## Acceptance Criteria
 
-- **API Data Fetching:** Opening Game Details dispatches a backend request for the selected game (by id/slug as defined by the API).
-- **Dynamic Rendering:** Title, description, media, badges, ratings/records, and other required fields are rendered from the API response (not permanent hardcoded game content for Story 3 final behavior).
+- **API Data Fetching:** Opening Game Details dispatches `GET /api/games/{gameSlug}` for the selected game.
+- **Dynamic Rendering:** Title, description, media, badges, ratings/records, and other required fields are rendered from the API response.
 - Loading, error, empty, and Snackbar feedback follow [MiniGames Common Skeleton Loaders, Error Banners, and Empty States (Story 3)](common-skeleton-loaders-error-empty-states.md) and [MiniGames Common Snackbar Notification Requirements (Story 3)](common-snackbar-notification-requirements.md). This is a mandatory criterion.
-- **Error Handling:** Network/server failures show an error state inside the modal (and/or via Snackbar) with a way to retry/close cleanly.
