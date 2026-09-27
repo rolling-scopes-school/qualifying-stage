@@ -58,6 +58,8 @@ Work for this stage should follow the common project rules:
 
 ## Penalties
 
+- **New**: Using standard browser `alert()` or `confirm()` dialogs: **-200 points**
+- **New**: Client-side filtering, sorting, or pagination applied instead of sending API requests to the backend server: **-200 points**
 - The submitted cross-check link is not valid or is not a Pull Request link: **-20 points**
 - Changes were made after the deadline: **-40 points**
 - Main/base branch is named incorrectly (not following repository workflow guidelines): **-20 points**
@@ -65,8 +67,6 @@ Work for this stage should follow the common project rules:
 - Commits or Pull Request description do not follow the RS School style guide: **-30 points**
 - Failure to follow the branching strategy (e.g., implementing all tasks directly in a single branch without separate task branches): **-50 points**
 - Prohibited libraries listed in the requirements are used: **-200 points**
-- **New**: Using standard browser `alert()` or `confirm()` dialogs: **-200 points**
-- **New**: Client-side filtering, sorting, or pagination applied instead of sending API requests to the backend server: **-200 points**
 - The entire layout or individual layout blocks are implemented using images: **-90 points**
 - `console.log` calls are present in the code: **-10 points per unique log, up to -30 points total**
 - ESLint or Prettier errors are present in the code: **-5 points per error**
