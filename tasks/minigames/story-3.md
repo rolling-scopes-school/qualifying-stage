@@ -53,10 +53,8 @@ Work for this stage should follow the common project rules:
 
 ## Custom SPA Routing & URL Synchronization (110 points)
 
-- (40 points) Custom SPA Router Core & History API Navigation. [RSS-QS-3-4-1](tasks/story-3/RSS-QS-3-4-1-spa-router-history-api.md)
-- (30 points) 404 Not Found Page & Invalid Route Handling. [RSS-QS-3-4-2](tasks/story-3/RSS-QS-3-4-2-404-not-found-page.md)
-- (40 points) Library Query Parameters Synchronization & Data Not Found Banner. [RSS-QS-3-4-3](tasks/story-3/RSS-QS-3-4-3-library-query-params-sync.md)
-- (40 points) Dialog windows URL synchronization & Game Not Found modal state. [RSS-QS-3-5-2](tasks/story-3/RSS-QS-3-5-2-dialogs-url-sync.md)
+- (80 points) Custom SPA Routing & URL Synchronization. [RSS-QS-3-4-1](tasks/story-3/RSS-QS-3-4-1-spa-router-url-synchronization.md)
+- (15 points) 404 Not Found Page & Invalid Route Handling. [RSS-QS-3-4-2](tasks/story-3/RSS-QS-3-4-2-404-not-found-page.md)
 
 ## Penalties
 
@@ -66,7 +64,7 @@ Work for this stage should follow the common project rules:
 - The submitted Cross-Check Pull Request has been merged into the target branch: **-30 points**
 - Commits or Pull Request description do not follow the RS School style guide: **-30 points**
 - Failure to follow the branching strategy (e.g., implementing all tasks directly in a single branch without separate task branches): **-50 points**
-- Prohibited libraries listed in the requirements are used (e.g. third-party routing libraries like `react-router`, `navigo`, `page.js`): **-200 points**
+- Prohibited libraries listed in the requirements are used: **-200 points**
 - Using standard browser `alert()` or `confirm()` dialogs: **-200 points**
 - Client-side filtering, sorting, or pagination applied instead of sending API requests to the backend server: **-200 points**
 - The entire layout or individual layout blocks are implemented using images: **-90 points**

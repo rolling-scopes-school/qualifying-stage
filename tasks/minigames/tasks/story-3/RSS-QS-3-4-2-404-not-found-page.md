@@ -1,4 +1,4 @@
-# Task RSS-QS-3-4-2: 404 Not Found Page & Invalid Route Handling (30 points)
+# Task RSS-QS-3-4-2: 404 Not Found Page & Invalid Route Handling (15 points)
 
 ## Description
 
