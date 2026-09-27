@@ -5,7 +5,7 @@ Total: **365 points**
 ## Goal
 
 - Connect the MiniGames web application frontend with the backend REST API to dynamically fetch, display, filter, sort, and paginate public data.
-- Implement UI loading states (skeleton loaders) and user feedback mechanisms (error banners, empty data placeholders, and custom Snackbar notifications).
+- Apply shared UI feedback patterns (skeleton loaders, error banners, empty data placeholders, and custom Snackbar notifications) across API-driven sections.
 - Implement a custom SPA routing system using pure TypeScript with History API integration, deep linking, and URL synchronization for pages, Library filters/sorting/pagination, and dialogs.
 - Handle navigation edge cases: dedicated 404 Not Found page, Library "Data Not Found" banner, and "Game Not Found" modal state.
 - Load Game Details and latest comments in read-only mode (authenticated mutations are deferred to Story 4).
@@ -15,6 +15,8 @@ Total: **365 points**
 Work for this stage should follow the common project rules:
 
 - [MiniGames Common Requirements](common-project-requirements.md)
+- [MiniGames Common Skeleton Loaders, Error Banners, and Empty States (Story 3)](tasks/story-3/common-skeleton-loaders-error-empty-states.md)
+- [MiniGames Common Snackbar Notification Requirements (Story 3)](tasks/story-3/common-snackbar-notification-requirements.md)
 
 ## Key Resources
 
@@ -31,33 +33,28 @@ Work for this stage should follow the common project rules:
 > - Backend REST API endpoints used in this story are treated as **public read** integrations for Home, Library, Game Details, and comments list.
 > - **Authenticated features** (auth, favorites toggle, comment submit/like, authenticated header) are **out of scope for Story 3** and are implemented in Story 4.
 
-## Home Page & API Integration: (30 points)
+## Home Page & API Integration: (45 points)
 
-- (15 points) Hero Slider / Carousel API data fetching and rendering. [RSS-QS-3-2-1](tasks/story-3/RSS-QS-3-2-1-hero-carousel-api.md)
-- (15 points) Top Players Leaderboard API data fetching and rendering. [RSS-QS-3-2-2](tasks/story-3/RSS-QS-3-2-2-leaderboard-api.md)
+- (20 points) Hero Slider / Carousel API data fetching and rendering. [RSS-QS-3-2-1](tasks/story-3/RSS-QS-3-2-1-hero-carousel-api.md)
+- (25 points) Top Players Leaderboard API data fetching and rendering. [RSS-QS-3-2-2](tasks/story-3/RSS-QS-3-2-2-leaderboard-api.md)
 
-## Library Page & API Integration: (90 points)
+## Library Page & API Integration: (110 points)
 
-- (30 points) Category filtering via API request. [RSS-QS-3-3-1](tasks/story-3/RSS-QS-3-3-1-library-category-filtering-api.md)
-- (30 points) Game sorting via API request. [RSS-QS-3-3-2](tasks/story-3/RSS-QS-3-3-2-library-sorting-api.md)
-- (30 points) Pagination via API request. [RSS-QS-3-3-3](tasks/story-3/RSS-QS-3-3-3-library-pagination-api.md)
+- (35 points) Category filtering via API request. [RSS-QS-3-3-1](tasks/story-3/RSS-QS-3-3-1-library-category-filtering-api.md)
+- (35 points) Game sorting via API request. [RSS-QS-3-3-2](tasks/story-3/RSS-QS-3-3-2-library-sorting-api.md)
+- (40 points) Pagination via API request. [RSS-QS-3-3-3](tasks/story-3/RSS-QS-3-3-3-library-pagination-api.md)
 
-## Game Details Dialog & API Integration (75 points)
+## Game Details Dialog & API Integration (100 points)
 
-- (15 points) Game details data API loading and rendering. [RSS-QS-3-5-1](tasks/story-3/RSS-QS-3-5-1-game-details-api.md)
+- (30 points) Game details data API loading and rendering. [RSS-QS-3-5-1](tasks/story-3/RSS-QS-3-5-1-game-details-api.md)
 - (40 points) Dialog windows URL synchronization & Game Not Found modal state. [RSS-QS-3-5-2](tasks/story-3/RSS-QS-3-5-2-dialogs-url-sync.md)
-- (20 points) Game comments fetching (3 latest comments & total count, read-only). [RSS-QS-3-5-3](tasks/story-3/RSS-QS-3-5-3-game-comments-fetch-api.md)
+- (30 points) Game comments fetching (3 latest comments & total count, read-only). [RSS-QS-3-5-3](tasks/story-3/RSS-QS-3-5-3-game-comments-fetch-api.md)
 
 ## Custom SPA Routing & URL Synchronization (110 points)
 
 - (40 points) Custom SPA Router Core & History API Navigation. [RSS-QS-3-4-1](tasks/story-3/RSS-QS-3-4-1-spa-router-history-api.md)
 - (30 points) 404 Not Found Page & Invalid Route Handling. [RSS-QS-3-4-2](tasks/story-3/RSS-QS-3-4-2-404-not-found-page.md)
 - (40 points) Library Query Parameters Synchronization & Data Not Found Banner. [RSS-QS-3-4-3](tasks/story-3/RSS-QS-3-4-3-library-query-params-sync.md)
-
-## General API Infrastructure & UI Feedback (60 points)
-
-- (50 points) Skeleton loaders, error banners, and empty data placeholders. [RSS-QS-3-1-1](tasks/story-3/RSS-QS-3-1-1-skeleton-loaders-error-empty-states.md)
-- (10 points) Snackbar notification component implementation. [RSS-QS-3-1-2](tasks/story-3/RSS-QS-3-1-2-snackbar-notification.md)
 
 ## Penalties
 

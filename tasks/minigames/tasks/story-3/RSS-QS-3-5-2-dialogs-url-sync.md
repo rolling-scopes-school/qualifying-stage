@@ -12,6 +12,7 @@ Synchronize modal dialog states (Game Details modal, Auth modal) with URL addres
 - **Modal Dismissal URL Restoration:** Closing a dialog modal (via Close icon button, backdrop click, or Escape key) reverts or clears the modal parameter from the address bar URL without page reload.
 - **Browser Back Button Dismissal:** Pressing the browser Back navigation button while a dialog modal is open closes the modal dialog and reverts the address bar URL to the underlying page state.
 - **Deep Link Modal Restoration:** Opening a URL containing a modal parameter in a new tab or window renders the underlying base page and automatically opens the target modal dialog window (fetching game details for game URLs).
+- Loading/error/empty feedback for dialog data states follows [MiniGames Common Skeleton Loaders, Error Banners, and Empty States (Story 3)](common-skeleton-loaders-error-empty-states.md) and [MiniGames Common Snackbar Notification Requirements (Story 3)](common-snackbar-notification-requirements.md) where applicable. This is a mandatory criterion.
 - **"Game Not Found" Modal State:** If an invalid game parameter (e.g. invalid/non-existent game ID) is present in the URL or if the backend API returns an error / empty response when loading game details:
   - The Game Details modal displays a dedicated error view inside the dialog body informing the user that the requested game was not found.
   - *The visual design and layout of the "Game Not Found" dialog state are at the student's discretion.*

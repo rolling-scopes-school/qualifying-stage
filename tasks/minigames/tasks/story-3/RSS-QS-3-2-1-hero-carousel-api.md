@@ -1,4 +1,4 @@
-# Task RSS-QS-3-2-1: Hero Carousel / Slider API Integration (15 points)
+# Task RSS-QS-3-2-1: Hero Carousel / Slider API Integration (20 points)
 
 ## Description
 
@@ -8,5 +8,5 @@ Replace static/mock hero carousel data on the Home page with live backend API da
 
 - **API Data Fetching:** Featured/hero games are loaded from the backend API (not hardcoded permanent mock arrays for the final Story 3 behavior).
 - **Dynamic Rendering:** Carousel/slider cards render title, image, and other required fields from the API response.
-- **Loading & Error States:** While loading, a skeleton is shown; on failure, an error banner/retry or Snackbar feedback is provided according to the global UI feedback rules.
+- Loading, error, empty, and Snackbar feedback follow [MiniGames Common Skeleton Loaders, Error Banners, and Empty States (Story 3)](common-skeleton-loaders-error-empty-states.md) and [MiniGames Common Snackbar Notification Requirements (Story 3)](common-snackbar-notification-requirements.md). This is a mandatory criterion.
 - **Interaction Compatibility:** Existing Story 2 slider interaction logic continues to work with API-driven slides.

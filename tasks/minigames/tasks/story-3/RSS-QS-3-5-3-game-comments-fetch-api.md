@@ -1,4 +1,4 @@
-# Task RSS-QS-3-5-3: Game Comments Fetching API Integration (20 points)
+# Task RSS-QS-3-5-3: Game Comments Fetching API Integration (30 points)
 
 ## Description
 
@@ -17,5 +17,5 @@ Fetch and render the latest game comments and total comment count in the Game De
   - `1–11 months` → `1 month ago` … `11 months ago`
   - `≥ 1 year` → `1 year ago` / `2 years ago` / … (full-year increments)
 - **Total Count Header:** Retrieve the total number of comments for the game and display the exact count in the comments section header (e.g. `Comments (12)`).
-- **Loading & Error States:** Comments block uses skeleton/loading and error/empty feedback consistent with global UI rules.
+- Loading, error, empty, and Snackbar feedback follow [MiniGames Common Skeleton Loaders, Error Banners, and Empty States (Story 3)](common-skeleton-loaders-error-empty-states.md) and [MiniGames Common Snackbar Notification Requirements (Story 3)](common-snackbar-notification-requirements.md). This is a mandatory criterion.
 - **Guest-Safe Read-Only Behavior:** Comment posting, liking, and other authenticated mutations are out of scope for this task and remain disabled/locked for guests until Story 4.
