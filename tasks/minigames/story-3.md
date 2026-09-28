@@ -27,7 +27,7 @@ Work for this stage should follow the common project rules:
 
 - Backend API: [Base URL](https://faxb76kxra.execute-api.eu-central-1.amazonaws.com/api)
 
-- API Endpoint & Schema Specification: [doc URL](<[PLACEHOLDER_API_SCHEMA_URL](https://faxb76kxra.execute-api.eu-central-1.amazonaws.com/docs)>)
+- API Endpoint & Schema Specification: [doc URL](https://faxb76kxra.execute-api.eu-central-1.amazonaws.com/docs)
 
 > Note:
 >
