@@ -5,6 +5,10 @@
 Implement the layout of the Library game cards list section according to the Figma mockup.
 At this stage, the section displays static cards and focuses on layout, semantics, adaptive behavior, and visual states.
 
+> **Note from author**
+>
+> Please note that the **order of game cards** differs between the desktop, tablet, and mobile versions in the Figma mockup. This is a **mockup error**. Do **not** deduct points if a student's work has a different card order across breakpoints (or a single consistent order that does not match every mockup variant).
+
 ## Acceptance Criteria
 
 - The section is implemented in full compliance with the project's key layout requirements described in [MiniGames Common Layout Requirements](../../common-layout-requirements.md). This is a mandatory criterion.
