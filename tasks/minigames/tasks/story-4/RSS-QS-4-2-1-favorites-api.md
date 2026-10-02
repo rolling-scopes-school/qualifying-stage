@@ -1,0 +1,13 @@
+# Task RSS-QS-4-2-1: Add / Remove Favorites API Integration (15 points)
+
+## Description
+
+Implement add-to-favorites and remove-from-favorites actions via backend API requests with authorization checks and UI state updates.
+
+## Acceptance Criteria
+
+- **Authorization Check:** Favorites toggle is available ONLY to authenticated users. If a guest clicks the control, open the Auth modal and show a Snackbar warning.
+- **API Request:** Toggling favorites dispatches the corresponding backend API request for the current game and user identity required by the API contract.
+- **Button Locking & Loading:** While the request is pending, the favorites control is locked and shows loading feedback.
+- **Server-Driven UI Update:** Favorites active/inactive state updates according to the API response, not optimistic-only local guesswork without server confirmation.
+- **Snackbar Feedback:** Success and failure are announced via Snackbar.
