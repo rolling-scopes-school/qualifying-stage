@@ -1,21 +1,17 @@
-# Task RSS-QS-4-3-2: User Session Persistence & Expiration in LocalStorage (20 points)
+# Task RSS-QS-4-3-2: App Session Persistence, Validation & Expiration (20 points)
 
 ## Description
 
-Implement a short-lived client-side app session in `localStorage`. Store non-sensitive user profile data upon authentication, maintain the app's authenticated UI state across page refreshes for 5 minutes, and handle automatic session expiration. This app session is distinct from Firebase Authentication's own persisted identity state.
+Implement the client-side app session described in the [Story 4 Architecture Note](../../story-4.md). Persist the minimum profile data needed by the UI and API, restore a still-valid session after reload, and return the app to Guest Mode when the session expires or its stored data is invalid. This app session is distinct from Firebase Authentication's persisted identity.
 
 ## Acceptance Criteria
 
-- **LocalStorage Profile Storage:** Upon successful authentication (login or registration), store non-sensitive user profile data in `localStorage` (username and avatar URL if available). Storing passwords in `localStorage` is strictly prohibited.
-- **Session Timestamp & Persistence:** Save an authorization timestamp alongside user data. On page refresh or when invoking authorized features, if less than 5 minutes (300 seconds) have passed since authorization, the authenticated session persists, and all authorized features remain accessible.
-- **5-Minute Session Expiration & UI Reset:** If 5 minutes (300 seconds) or more have elapsed since authorization (checked upon page refresh or when invoking authorized features):
-  - User data in `localStorage` should be cleared.
-  - Firebase Authentication should be signed out so its persisted identity does not restore the expired app session.
-  - The session expires and the application immediately transitions back to guest mode (restoring Login and Registration controls in the header and mobile menu).
-  - A Snackbar notification should be displayed to inform the user that their session has expired and re-authentication is required.
-  - Attempting an authorized feature (favorites, comments, likes) with an expired session should open the Auth modal dialog.
+- **Namespaced Storage Key:** Store the session as one JSON object under a stable, project-specific `localStorage` key, for example `minigames:<unique-project-id>:app-session`; do not use a generic key such as `user`, `auth`, or `session`. Document the exact key in the project README or PR description so reviewers can inspect it without relying on implementation details.
+- **Session Data:** On successful authentication, store `displayName`, `email`, `authenticatedAt` (the numeric millisecond timestamp returned by `Date.now()`), and `avatarUrl` only when available. Use the same profile values for Email/Password and Google sign-in. Do not store passwords, Firebase tokens, or unrelated user data.
+- **Restore After Reload:** On startup, parse and validate the stored object. If it is valid and not expired under the Architecture Note's session policy, restore the authenticated UI without changing `authenticatedAt`; reloading or using the app should not extend the session lifetime.
+- **Invalid Stored Data:** If the value is not valid JSON or is missing required fields or has fields of the wrong type, remove only this app's session key, call Firebase `signOut`, and start in Guest Mode. The application must not crash or restore an authenticated state from Firebase's `currentUser` alone.
+- **Session Expiration:** Check the session at startup, when the page becomes active again, before page or dialog navigation, and before every protected action. When expired, remove only the app's session key, call Firebase `signOut`, and immediately switch the UI to Guest Mode. Show one Snackbar for the expiration event.
+- **Protected Action after Expiration:** If session is expired do not send the attempted favorite, comment, or like request. Preserve the current Game Details state and URL, but show Auth instead of Game Details so only one dialog is active. If authentication succeeds, close Auth and restore Game Details in authenticated mode. If Auth is canceled or closed, restore Game Details in Guest Mode. Do not automatically repeat the blocked action; the user can retry it explicitly.
+- **Page or Dialog Navigation after Expiration:** Continue the requested public navigation in Guest Mode.
 
-> **Hint:** `localStorage` is controlled by the client and can be inspected or modified, so this mechanism is not a security boundary and must not contain passwords or Firebase tokens. The 5-minute TTL is intentionally short to make the educational cross-check convenient; it is not a recommended production session lifetime. Firebase identity lifetime and app-session lifetime are separate: use the app session for UI/feature guards, and call Firebase `signOut` on expiry. To make expiration automatic while the app is open, schedule a check for the stored expiry time; always re-check on startup and before protected actions as well.
-
-> **Reviewer Note:**
-> To test 5-minute session expiration without waiting, reviewers can open DevTools (Application tab -> Local Storage), manually decrease the saved timestamp value by 300+ seconds, and refresh the page or click an authorized feature button.
+> **Reviewer Note:** Reviewers can inspect the documented key in DevTools (Application -> Local Storage), change `authenticatedAt` to a timestamp older than the configured session lifetime, then reload the page or try a protected action.

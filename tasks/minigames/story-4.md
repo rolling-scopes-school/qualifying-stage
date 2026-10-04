@@ -6,14 +6,14 @@ Total: **423 points**
 
 - Integrate Authentication (Email/Password & Firebase Google OAuth) with form validation, input locking during requests, and state persistence.
 - Handle interactive features for authenticated users (favorite games toggle, comment submissions, comment likes).
-- Implement authenticated user header/profile UI, `localStorage` session lifetime (5 minutes), logout/guest reset, and Auth dialog access guards for logged-in users.
+- Implement the authenticated user profile, short-lived client app session, logout/guest reset, and Auth dialog access guards.
 - Set up unit testing tooling (`vitest` or `jest`) and scripts in `package.json`, achieve **80%+ code coverage** across logic files, and document test exclusions with mandatory comments.
 
 ### Architecture Note for Auth & API
 
 - **Firebase Authentication SDK** is used as the Identity Provider for user authentication (Email/Password and Google OAuth). Firebase authentication persistence and the MiniGames client-side app session are separate concerns: Firebase establishes the user's identity, while the app session controls whether the UI treats the user as authenticated.
 - **Client-Side Authorization Management:** Backend REST API endpoints are public and respond identically to all requests without validating session tokens. Students should implement frontend logic to control feature availability and restrict unauthorized API calls based on the active client session state.
-- **App Session Lifetime:** The app session is maintained on the client for **5 minutes** from successful authentication, then the frontend transitions back to Guest Mode. This intentionally short duration is a teaching/demo choice that makes expiration practical to verify during cross-check.
+- **App Session Lifetime:** The app session is maintained on the client for **5 minutes from successful authentication**. The expiration time is fixed: reloading the page or using the app does not extend it. When the lifetime ends, the frontend transitions back to Guest Mode. This intentionally short duration is a teaching/demo choice that makes expiration practical to verify during cross-check.
 - **Client Storage Limitation:** The app-session data in `localStorage` is client-controlled and can be read or modified by the user. It is used here to practice persistence across reloads and automatic expiration, not as a security boundary. Do not store passwords, Firebase ID/refresh tokens, or other credentials in this app-session record. The backend does not validate this client-side state.
 - **Expiration and Sign-Out:** The active app session is the source of truth for authenticated UI and feature guards. On app-session expiration or explicit logout, clear the app-session data and call Firebase `signOut` so Firebase's own persisted authentication state does not restore the user after the app session has ended.
 - **Depends on Story 3:** Routing, URL synchronization, public API data loading, Snackbar, and read-only Game Details/comments from Story 3 are prerequisites. Story 4 extends them with identity and authenticated mutations.
@@ -44,19 +44,19 @@ Work for this stage should follow the common project rules:
 - (20 points) Email/Password authentication flow and UI state management. [RSS-QS-4-1-2](tasks/story-4/RSS-QS-4-1-2-auth-registration-api.md)
 - (40 points) Google sign-in integration with Firebase Authentication. [RSS-QS-4-1-4](tasks/story-4/RSS-QS-4-1-4-google-oauth.md)
 
+## Authenticated User State, Session & Guards (80 points)
+
+- (30 points) Authenticated user header state, avatar image, and initials calculation. [RSS-QS-4-3-1](tasks/story-4/RSS-QS-4-3-1-authenticated-header-profile.md)
+- (20 points) App session persistence, validation, and expiration. [RSS-QS-4-3-2](tasks/story-4/RSS-QS-4-3-2-session-persistence-expiration.md)
+- (15 points) Logout and guest-mode reset. [RSS-QS-4-3-3](tasks/story-4/RSS-QS-4-3-3-logout-guest-mode-reset.md)
+- (15 points) Authenticated user Auth dialog URL/UI guard. [RSS-QS-4-3-4](tasks/story-4/RSS-QS-4-3-4-auth-dialog-url-guard.md)
+
 ## Authenticated Game Interactions (53 points)
 
 - (15 points) Add to / Remove from Favorites API request. [RSS-QS-4-2-1](tasks/story-4/RSS-QS-4-2-1-favorites-api.md)
 - (20 points) Comment submission form with auto-expand textarea & API update. [RSS-QS-4-2-2](tasks/story-4/RSS-QS-4-2-2-comment-submission-form.md)
 - (3 points) Comment avatar styling (random token color & initial). [RSS-QS-4-2-3](tasks/story-4/RSS-QS-4-2-3-comment-avatar-styling.md)
 - (15 points) Like comment API request. [RSS-QS-4-2-4](tasks/story-4/RSS-QS-4-2-4-like-comment-api.md)
-
-## Authenticated User State, Session & Guards (80 points)
-
-- (30 points) Authenticated user header state, avatar image, and initials calculation. [RSS-QS-4-3-1](tasks/story-4/RSS-QS-4-3-1-authenticated-header-profile.md)
-- (20 points) User session persistence in localStorage and 5-minute expiration handling. [RSS-QS-4-3-2](tasks/story-4/RSS-QS-4-3-2-session-persistence-expiration.md)
-- (15 points) User logout functionality and guest mode reset. [RSS-QS-4-3-3](tasks/story-4/RSS-QS-4-3-3-logout-guest-mode-reset.md)
-- (15 points) Authenticated user Auth dialog URL/UI guard. [RSS-QS-4-3-4](tasks/story-4/RSS-QS-4-3-4-auth-dialog-url-guard.md)
 
 ## Unit Testing & Code Coverage (150 points)
 

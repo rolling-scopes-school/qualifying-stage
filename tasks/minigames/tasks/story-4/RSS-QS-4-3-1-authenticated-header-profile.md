@@ -2,16 +2,11 @@
 
 ## Description
 
-Update the site header UI state for authenticated users, rendering user profile name and Google avatar image or custom initials avatar.
+Render the active app-session profile in the site header and mobile menu, using the user's photo when available and initials otherwise.
 
 ## Acceptance Criteria
 
-- **Authenticated Header & Mobile Menu UI:** After successful authentication (login or registration), the site header and mobile burger menu update according to the authenticated mockup state.
-- **Auth & Logout Controls:** Login and Registration buttons are no longer rendered; the Logout button becomes visible and operational in both the main header and mobile burger menu.
-- **Username Display & XSS Protection:** Displays the user's profile name in the header block. User display names should be sanitized/escaped to prevent XSS attacks.
-- **Google OAuth Avatar:** If the user authenticated via a Google account and the auth response contains a Google avatar photo URL, render the photo in the header avatar container.
-- **Initials Avatar Fallback:** If no photo URL exists (or user logged in via Email/Password):
-  - Whitespace should be trimmed (`.trim()`) and split by whitespace (`/\s+/`).
-  - Single-word name: avatar displays 1 uppercase initial inside (e.g. `Alex` -> `A`).
-  - Multi-word name (2+ words): avatar displays 2 uppercase initials composed of the first letters of the first two words (e.g. `John Doe Smith` -> `JD`).
-  - Non-alphabetic names: If the display name begins with non-alphabetic characters (e.g. Google profile names like `@user`), use the first available alphanumeric uppercase character.
+- **Authenticated Header & Mobile Menu UI:** After successful authentication (login or registration), replace the guest controls with the authenticated profile state in the site header and mobile menu according to the mockup.
+- **Profile Name:** Display `displayName` as text, never as injected HTML. If it is empty, use the part of `email` before `@`; if that is unavailable, show a generic fallback name.
+- **Profile Photo:** If `avatarUrl` is present, render it in the avatar. If it is absent or the image fails to load, show the initials fallback.
+- **Initials Fallback:** Trim the selected profile name and split it on whitespace. For one word, show its first alphanumeric character in uppercase; for two or more words, show the first alphanumeric character from each of the first two words in uppercase. Support Unicode letters and digits. If no alphanumeric character is available, show a generic fallback avatar.

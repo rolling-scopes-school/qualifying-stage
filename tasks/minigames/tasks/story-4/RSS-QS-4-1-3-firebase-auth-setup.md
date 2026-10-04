@@ -10,4 +10,4 @@ Configure a personal Firebase project and integrate the Firebase SDK into the ap
 - **Authentication Setup:** Email/Password authentication provider is enabled in Firebase Console.
 - **Frontend Integration:** Firebase SDK is initialized and integrated into the TypeScript project codebase.
 
-> **Hint:** Firebase Authentication is the identity provider; it does not have a Firebase Console setting for the MiniGames app's 5-minute session lifetime. Keep the app-session TTL separate from Firebase persistence, and call Firebase `signOut` when that app session expires or the user logs out. The client-side TTL is an educational cross-check requirement, not production-grade session security.
+> **Hint:** Firebase Authentication provides the identity. App-session lifetime and recovery are defined once in the Story 4 Architecture Note; do not configure the app-session lifetime as a Firebase setting.

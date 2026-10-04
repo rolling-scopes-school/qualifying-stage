@@ -2,14 +2,13 @@
 
 ## Description
 
-Restrict Auth dialog access for users with a valid active session, including direct URL deep links such as `?auth=login` / `?auth=register`, and provide clear user feedback.
+Guard every Auth dialog entry point using the active app session, including UI actions, direct URLs, and browser history navigation.
 
 ## Acceptance Criteria
 
-- **UI Guard:** If a user with a valid active session attempts to open the Auth dialog via header/menu controls, the Auth modal SHOULD NOT open.
-- **Deep Link Guard:** If a logged-in user opens a URL with an auth modal parameter (e.g., `?auth=login` or `?auth=register`), the Auth modal SHOULD NOT open.
-- **URL Cleanup:** The URL address bar should automatically revert/clear the auth parameter without a full page reload.
-- **User Feedback:** A Snackbar notification should inform the user that they are already authenticated.
-- **Session Rules Alignment:** "Valid active session" follows the Story 4 session persistence and 5-minute expiration rules.
-
-> **Hint:** Determine this guard from the valid MiniGames app session, not from Firebase's `currentUser` alone. Firebase's identity persistence may outlive the app-session TTL; an expired app session must first be cleared and Firebase signed out, after which the user is treated as a guest.
+- **Guard All Entry Points:** If a user with a valid app session attempts to open Auth from any UI control, URL, or browser history navigation, do not open the Auth dialog.
+- **Clean the URL:** Remove only the `auth` parameter, preserve the current path, other query parameters, and hash, and update the current history entry through the SPA router without a page reload or an extra Back-button entry.
+- **User Feedback:** Show one Snackbar explaining that the user is already authenticated.
+- **Expired or Invalid Session:** Apply the session recovery rules before deciding whether to block Auth. A user whose session is expired or invalid is a guest; after recovery, allow an Auth URL such as `?auth=login` or `?auth=register` to open.
+- **Game Details State:** When Auth replaces Game Details after a protected action, preserve the game URL/state and restore Game Details when Auth closes. Follow the session transition and no-auto-retry behavior in [App Session Persistence, Validation & Expiration](RSS-QS-4-3-2-session-persistence-expiration.md).
+- **Browser History:** Back and Forward restore the matching Auth or Game Details state through the Story 3 SPA router without a full page reload.
