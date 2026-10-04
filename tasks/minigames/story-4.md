@@ -39,10 +39,10 @@ Work for this stage should follow the common project rules:
 
 ## Authentication & User Registration (140 points)
 
-- (30 points) Login & Registration forms real-time validation. [RSS-QS-4-1-1](tasks/story-4/RSS-QS-4-1-1-auth-forms-realtime-validation.md)
-- (20 points) Login & Registration API request and UI state management. [RSS-QS-4-1-2](tasks/story-4/RSS-QS-4-1-2-auth-registration-api.md)
-- (50 points) Firebase Workspace & Authentication project setup and SDK integration. [RSS-QS-4-1-3](tasks/story-4/RSS-QS-4-1-3-firebase-auth-setup.md)
-- (40 points) Google Account OAuth authorization integration. [RSS-QS-4-1-4](tasks/story-4/RSS-QS-4-1-4-google-oauth.md)
+- (30 points) Real-time validation for Login and Registration forms. [RSS-QS-4-1-1](tasks/story-4/RSS-QS-4-1-1-auth-forms-realtime-validation.md)
+- (50 points) Firebase project, Email/Password provider, and SDK setup. [RSS-QS-4-1-3](tasks/story-4/RSS-QS-4-1-3-firebase-auth-setup.md)
+- (20 points) Email/Password authentication flow and UI state management. [RSS-QS-4-1-2](tasks/story-4/RSS-QS-4-1-2-auth-registration-api.md)
+- (40 points) Google sign-in integration with Firebase Authentication. [RSS-QS-4-1-4](tasks/story-4/RSS-QS-4-1-4-google-oauth.md)
 
 ## Authenticated Game Interactions (53 points)
 

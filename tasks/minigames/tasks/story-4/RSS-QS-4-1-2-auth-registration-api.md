@@ -1,14 +1,15 @@
-# Task RSS-QS-4-1-2: Authentication & Registration API Requests (20 points)
+# Task RSS-QS-4-1-2: Email/Password Authentication Flow and UI States (20 points)
 
 ## Description
 
-Wire Login and Registration form submit actions to authentication requests with pending UI locks, loading feedback, and success/error handling.
+Connect the Login and Registration forms to Firebase Email/Password Authentication with pending UI locks, loading feedback, and success/error handling.
 
 ## Acceptance Criteria
 
-- **Submit Dispatches Auth Request:** Valid form submission triggers the corresponding login or registration authentication flow.
-- **Input Locking during Request:** While the authentication request is pending, form inputs and submit controls are locked (disabled).
-- **Dialog Closing Lock during Pending Request:** While the authentication request is pending and inputs are locked, the entire Auth dialog SHOULD NOT be closable by the user.
-- **Request Outcome Handling:** On failure, inputs unlock and the user can retry; on success, the dialog closes and the authenticated UI state is applied.
+- **Submit Dispatches Firebase Operation:** A valid form submission triggers the corresponding Firebase email/password sign-in or account-creation operation. Login uses the user's email address and password.
+- **Registration Profile Name:** When creating an account, save the registration form's username as the Firebase user's `displayName`.
+- **Prevent Duplicate Authentication:** While an authentication operation is pending, disable all authentication actions and form inputs so the user cannot submit another request.
+- **Keep Dialog Open while Pending:** While an authentication operation is pending, the user cannot close the Auth dialog using its close button, the backdrop, or the Escape key.
+- **Authentication Outcome:** On failure, keep the dialog open, unlock the controls, and allow the user to retry. On success, create the app session according to [User Session Persistence & Expiration](RSS-QS-4-3-2-session-persistence-expiration.md), apply the authenticated UI state, and close the dialog.
 
 - Loading, error, empty, and Snackbar feedback follow [MiniGames Common Skeleton Loaders, Error Banners, and Empty States (Story 3)](../story-3/common-skeleton-loaders-error-empty-states.md) and [MiniGames Common Snackbar Notification Requirements (Story 3)](../story-3/common-snackbar-notification-requirements.md). This is a mandatory criterion.
