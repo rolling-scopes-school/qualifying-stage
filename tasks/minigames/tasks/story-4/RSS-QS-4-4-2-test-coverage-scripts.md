@@ -2,14 +2,13 @@
 
 ## Description
 
-Configure scripts in `package.json` for running project unit tests and generating coverage reports, and configure coverage exclusion rules with mandatory inline comments.
+Configure scripts in `package.json` for running project unit tests and generating coverage reports. The coverage report must include all application files containing logic; exclusions are allowed only for files that contain no application logic and must have a clear rationale in the test configuration.
 
 ## Acceptance Criteria
 
 - **NPM Execution Scripts:** Include the following scripts in `package.json`:
   - `npm run test` (or `npm test`): runs all unit test suites across the codebase.
   - `npm run test:coverage` (or `npm run coverage`): executes test suites and generates a terminal coverage summary table.
-- **Coverage Exclusions & Mandatory Explanatory Comments:**
-  - Non-logic setup/config files (e.g. `vite.config.ts`, `.eslintrc`, `tsconfig.json`) and pure entry launcher files without business logic (e.g. root application bootstrap file `app.ts`) may be excluded from coverage calculation.
-  - **CRITICAL REQUIREMENT:** EVERY file or path pattern added to coverage exclusion settings SHOULD be accompanied by an inline comment in the configuration file explaining *why* it was excluded.
-- **Reviewer Coverage Inspection:** During evaluation, reviewers should inspect the configuration file and terminal coverage table to confirm that all files containing business logic are included and exclusions are explicitly commented.
+- **Coverage Scope & Exclusions:** Include every application file containing logic in the coverage report. Test-framework/configuration files and pure bootstrap files with no application logic may be excluded. Do not exclude files merely because they are difficult to test.
+- **Exclusion Rationale:** Add a concise comment next to every excluded file or pattern explaining why it contains no application logic. Use a JavaScript or TypeScript test configuration file when comments are needed; JSON configuration files cannot contain comments.
+- **Reviewer Coverage Inspection:** During evaluation, reviewers should inspect the test configuration and terminal coverage table to confirm that application-logic files are included and every exclusion is explained.

@@ -7,7 +7,7 @@ Total: **423 points**
 - Integrate Authentication (Email/Password & Firebase Google OAuth) with form validation, input locking during requests, and state persistence.
 - Handle interactive features for authenticated users (favorite games toggle, comment submissions, comment likes).
 - Implement the authenticated user profile, short-lived client app session, logout/guest reset, and Auth dialog access guards.
-- Set up unit testing tooling (`vitest` or `jest`) and scripts in `package.json`, achieve **80%+ code coverage** across logic files, and document test exclusions with mandatory comments.
+- Set up unit testing tooling (`vitest` or `jest`) and scripts in `package.json`; write meaningful tests for application logic and achieve **80%+ statement coverage** across all included application-logic files. Any coverage exclusions must be limited to files without application logic and explained in the test configuration.
 
 ### Architecture Note for Auth & API
 
@@ -60,17 +60,18 @@ Work for this stage should follow the common project rules:
 
 ## Unit Testing & Code Coverage (150 points)
 
-- (30 points) Unit Testing Tooling & Packages Installation. [RSS-QS-4-4-1](tasks/story-4/RSS-QS-4-4-1-unit-testing-tooling.md)
-- (20 points) Test Execution & Coverage Scripts Setup. [RSS-QS-4-4-2](tasks/story-4/RSS-QS-4-4-2-test-coverage-scripts.md)
-- (40 points) Successful Test Execution & Zero Failing Tests. [RSS-QS-4-4-3](tasks/story-4/RSS-QS-4-4-3-successful-test-execution.md)
-- (60 points) Code Coverage Target & Genuine Logic Testing. [RSS-QS-4-4-4](tasks/story-4/RSS-QS-4-4-4-code-coverage-target.md)
+- (20 points) Unit Testing Tooling & Packages Installation. [RSS-QS-4-4-1](tasks/story-4/RSS-QS-4-4-1-unit-testing-tooling.md)
+- (15 points) Test Execution & Coverage Scripts Setup. [RSS-QS-4-4-2](tasks/story-4/RSS-QS-4-4-2-test-coverage-scripts.md)
+- (35 points) Successful Test Execution & Zero Failing Tests. [RSS-QS-4-4-3](tasks/story-4/RSS-QS-4-4-3-successful-test-execution.md)
+- (80 points) Code Coverage Target & Genuine Logic Testing. [RSS-QS-4-4-4](tasks/story-4/RSS-QS-4-4-4-code-coverage-target.md)
 
 ## Penalties
 
 - **New**: Writing fake or cheating unit tests (e.g., `expect(true).toBe(true)` or dummy calls used solely to artificially inflate code coverage numbers): **-50 points per test**
 - **New**: Individual failing unit test assertion: **-10 points per failing test**
-- **New**: Total project code coverage (Statements metric `% Stmts`) is between 60% and 79%: **-50 points**
-- **New**: Total project code coverage (Statements metric `% Stmts`) is between 40% and 59%: **-70 points**
+- **New**: When tests are implemented and pass, included application-logic files have statement coverage (`% Stmts`) from 60% up to, but not including, 80%: **-50 points**
+- **New**: When tests are implemented and pass, included application-logic files have statement coverage (`% Stmts`) from 40% up to, but not including, 60%: **-70 points**
+- **New**: When tests are implemented and pass, included application-logic files have statement coverage (`% Stmts`) below 40%: **-90 points**
 - **New**: Unit tests are not implemented at all: **-100 points**
 - Using standard browser `alert()` or `confirm()` dialogs: **-200 points**
 - Client-side filtering, sorting, or pagination applied instead of sending API requests to the backend server: **-200 points**

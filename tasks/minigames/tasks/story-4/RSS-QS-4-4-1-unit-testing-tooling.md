@@ -2,10 +2,11 @@
 
 ## Description
 
-Install and configure unit testing framework packages (`vitest` or `jest`) and testing environment dependencies for the TypeScript application.
+Install and configure a unit testing framework (`vitest` or `jest`) for the TypeScript application. Add a simulated browser/DOM environment only if the chosen tests need to exercise DOM behavior.
 
 ## Acceptance Criteria
 
-- **Package Installation:** Install unit testing framework dependencies (`vitest` or `jest`, student's choice). The testing framework should support DOM manipulation and simulation, either by default or by adding the appropriate dependencies (e.g., `jsdom`, `happy-dom`).
+- **Package Installation:** Install the chosen test framework and any required TypeScript or coverage provider dependencies as `devDependencies`.
+- **Optional DOM Environment:** Add and configure a DOM simulator (e.g., `jsdom` or `happy-dom`) only when tests exercise DOM behavior. Pure logic tests do not require one.
 - **Dependencies Management:** All testing dependencies should be correctly added to `devDependencies` in `package.json`.
-- **Framework Configuration File:** Create and configure the appropriate testing setup file (`vite.config.ts`, `vitest.config.ts`, or `jest.config.js`) supporting TypeScript transpilation and browser/DOM environment simulation.
+- **Framework Configuration File:** Create and configure the appropriate testing setup file (`vite.config.ts`, `vitest.config.ts`, or `jest.config.js`) to discover and run the project's TypeScript tests. Configure a DOM environment only if it is used by the tests.
