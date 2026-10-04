@@ -11,3 +11,5 @@ Configure a personal Firebase project workspace and integrate Firebase Authentic
 - **Frontend Integration:** Firebase SDK is initialized and integrated into the TypeScript project codebase.
 - **User Data Storage:** User registration requests create and persist accounts within the Firebase Authentication database.
 - **Credential Validation:** Registered users can log in using their credentials (username/password).
+
+> **Hint:** Firebase Authentication is the identity provider; it does not have a Firebase Console setting for the MiniGames app's 5-minute session lifetime. Keep the app-session TTL separate from Firebase persistence, and call Firebase `signOut` when that app session expires or the user logs out. The client-side TTL is an educational cross-check requirement, not production-grade session security.

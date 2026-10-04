@@ -11,3 +11,5 @@ Restrict Auth dialog access for users with a valid active session, including dir
 - **URL Cleanup:** The URL address bar should automatically revert/clear the auth parameter without a full page reload.
 - **User Feedback:** A Snackbar notification should inform the user that they are already authenticated.
 - **Session Rules Alignment:** "Valid active session" follows the Story 4 session persistence and 5-minute expiration rules.
+
+> **Hint:** Determine this guard from the valid MiniGames app session, not from Firebase's `currentUser` alone. Firebase's identity persistence may outlive the app-session TTL; an expired app session must first be cleared and Firebase signed out, after which the user is treated as a guest.

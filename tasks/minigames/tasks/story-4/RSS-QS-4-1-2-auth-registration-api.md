@@ -9,5 +9,6 @@ Wire Login and Registration form submit actions to authentication requests with 
 - **Submit Dispatches Auth Request:** Valid form submission triggers the corresponding login or registration authentication flow.
 - **Input Locking during Request:** While the authentication request is pending, form inputs and submit controls are locked (disabled).
 - **Dialog Closing Lock during Pending Request:** While the authentication request is pending and inputs are locked, the entire Auth dialog SHOULD NOT be closable by the user.
-- **Loading Animation:** A loading animation/spinner signals that the authentication request is being processed.
-- **Success & Error Feedback:** Success and failure are communicated via Snackbar (or equivalent non-`alert()` feedback). On failure, inputs unlock and the user can retry; on success, the dialog closes and the authenticated UI state is applied.
+- **Request Outcome Handling:** On failure, inputs unlock and the user can retry; on success, the dialog closes and the authenticated UI state is applied.
+
+- Loading, error, empty, and Snackbar feedback follow [MiniGames Common Skeleton Loaders, Error Banners, and Empty States (Story 3)](../story-3/common-skeleton-loaders-error-empty-states.md) and [MiniGames Common Snackbar Notification Requirements (Story 3)](../story-3/common-snackbar-notification-requirements.md). This is a mandatory criterion.

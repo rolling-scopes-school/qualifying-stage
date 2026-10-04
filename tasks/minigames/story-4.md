@@ -11,9 +11,11 @@ Total: **423 points**
 
 ### Architecture Note for Auth & API
 
-- **Firebase Authentication SDK** is used as the Identity Provider for user authentication (Email/Password and Google OAuth).
+- **Firebase Authentication SDK** is used as the Identity Provider for user authentication (Email/Password and Google OAuth). Firebase authentication persistence and the MiniGames client-side app session are separate concerns: Firebase establishes the user's identity, while the app session controls whether the UI treats the user as authenticated.
 - **Client-Side Authorization Management:** Backend REST API endpoints are public and respond identically to all requests without validating session tokens. Students should implement frontend logic to control feature availability and restrict unauthorized API calls based on the active client session state.
-- **Session Lifetime:** The authenticated user session is maintained on the client in `localStorage` for **5 minutes**. Once expired, the frontend automatically transitions back to Guest Mode.
+- **App Session Lifetime:** The app session is maintained on the client for **5 minutes** from successful authentication, then the frontend transitions back to Guest Mode. This intentionally short duration is a teaching/demo choice that makes expiration practical to verify during cross-check.
+- **Client Storage Limitation:** The app-session data in `localStorage` is client-controlled and can be read or modified by the user. It is used here to practice persistence across reloads and automatic expiration, not as a security boundary. Do not store passwords, Firebase ID/refresh tokens, or other credentials in this app-session record. The backend does not validate this client-side state.
+- **Expiration and Sign-Out:** The active app session is the source of truth for authenticated UI and feature guards. On app-session expiration or explicit logout, clear the app-session data and call Firebase `signOut` so Firebase's own persisted authentication state does not restore the user after the app session has ended.
 - **Depends on Story 3:** Routing, URL synchronization, public API data loading, Snackbar, and read-only Game Details/comments from Story 3 are prerequisites. Story 4 extends them with identity and authenticated mutations.
 
 ## Common Requirements
