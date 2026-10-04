@@ -1,4 +1,4 @@
-# Task RSS-QS-4-4-3: Successful Test Execution & Zero Failing Tests (40 points)
+# Task RSS-QS-4-4-3: Successful Test Execution & Zero Failing Tests (35 points)
 
 ## Description
 

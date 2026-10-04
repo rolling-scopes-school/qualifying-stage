@@ -1,4 +1,4 @@
-# Task RSS-QS-4-4-4: Code Coverage Target & Genuine Logic Testing (60 points)
+# Task RSS-QS-4-4-4: Code Coverage Target & Genuine Logic Testing (80 points)
 
 ## Description
 

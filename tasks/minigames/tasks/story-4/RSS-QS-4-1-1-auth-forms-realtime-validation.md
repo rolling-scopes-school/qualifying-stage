@@ -9,7 +9,7 @@ Implement real-time client-side validation for Login and Registration forms insi
 - **Real-time Validation:** Validation runs as the user types or leaves fields (input/change/blur), not only after submit.
 - **Field Rules:** Apply these rules to the active form:
   - **Email (login and registration):** Required; validate that it matches a standard email address format.
-  - **Username (registration only):** Required; at least 2 characters long; must start with an uppercase English letter; may contain English letters and digits only.
+  - **Username (registration only):** Required; 2–30 characters long; must start with an uppercase English letter; may contain English letters and digits only.
   - **Password (registration):** Required and at least 6 characters long; must contain at least one uppercase English letter, one digit, and one special character. Passwords may otherwise contain English letters, digits, and special characters.
   - **Confirm password (registration):** Required and must exactly match the password. Validate only the match; do not apply the password rules to this field separately. Revalidate this field whenever the password changes.
   - **Password (login):** Required and at least 6 characters long. Do not apply the registration password-strength rules to login.

@@ -1,4 +1,4 @@
-# Task RSS-QS-4-4-2: Test Execution & Coverage Scripts Setup (20 points)
+# Task RSS-QS-4-4-2: Test Execution & Coverage Scripts Setup (15 points)
 
 ## Description
 

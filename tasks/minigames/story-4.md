@@ -68,10 +68,10 @@ Work for this stage should follow the common project rules:
 ## Penalties
 
 - **New**: Writing fake or cheating unit tests (e.g., `expect(true).toBe(true)` or dummy calls used solely to artificially inflate code coverage numbers): **-50 points per test**
-- **New**: Individual failing unit test assertion: **-10 points per failing test**
-- **New**: When tests are implemented and pass, included application-logic files have statement coverage (`% Stmts`) from 60% up to, but not including, 80%: **-50 points**
-- **New**: When tests are implemented and pass, included application-logic files have statement coverage (`% Stmts`) from 40% up to, but not including, 60%: **-70 points**
-- **New**: When tests are implemented and pass, included application-logic files have statement coverage (`% Stmts`) below 40%: **-90 points**
+- **New**: Each failing unit test case reported by the test runner: **-10 points per failing test case**
+- **New**: Aggregate statement coverage (`% Stmts`) across included application-logic files from 60% up to, but not including, 80%: **-50 points**
+- **New**: Aggregate statement coverage (`% Stmts`) across included application-logic files from 40% up to, but not including, 60%: **-70 points**
+- **New**: Aggregate statement coverage (`% Stmts`) across included application-logic files below 40%: **-90 points**
 - **New**: Unit tests are not implemented at all: **-100 points**
 - Using standard browser `alert()` or `confirm()` dialogs: **-200 points**
 - Client-side filtering, sorting, or pagination applied instead of sending API requests to the backend server: **-200 points**

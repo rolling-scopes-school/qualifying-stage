@@ -1,4 +1,4 @@
-# Task RSS-QS-4-4-1: Unit Testing Tooling & Packages Installation (30 points)
+# Task RSS-QS-4-4-1: Unit Testing Tooling & Packages Installation (20 points)
 
 ## Description
 
