@@ -16,23 +16,23 @@ Some ingredient combinations create extra effects, so the player must watch more
 
 ## Reaction table
 
-| # | Type | Reaction | Trigger | Effect |
-|---|---|---|---|---|
-| 1 | Ingredients | Bubbling | Fairy Dust + Caustic Acid | Magic Power `+50%`, remove `10` seconds once |
-| 2 | Ingredients | Volatile Mix | Phoenix Feather + Essence of the Void | Lose `1` life and clear the cauldron |
-| 3 | Ingredients | Solar Frost | Dragon Tears + Frost Lotus | Set Temperature to `0`, increase Density by `20%` |
-| 4 | Ingredients | Rooted Steam | Mandrake Root + Toad Slime | Increase Density by `25%`, reduce Magic Power by `10%` |
-| 5 | Ingredients | Ashen Bloom | Phoenix Feather + Fairy Dust | Increase Temperature by `10`, increase Magic Power by `25%` |
-| 6 | Stats | Annihilation | One ingredient has Temperature `> +15` and another has Temperature `< −15` | Set Temperature to `0` and double Density |
-| 7 | Stats | Pressure Spike | Total Density `>= 70` | Set Density to `70` and increase Magic Power by `10%` |
-| 8 | Stats | Magma Flux | Total Temperature `>= 60` | Increase Magic Power by `20%` and reduce Density by `10%` |
-| 9 | Stats | Deep Freeze | Total Temperature `<= -20` | Increase Density by `15%` and reduce Magic Power by `15%` |
-| 10 | Stats | Arcane Saturation | Total Magic Power `>= 80` | Set Magic Power to `80` and increase Temperature by `5` |
-| 11 | Mix | Steam Burst | Dragon Tears + Caustic Acid and total Temperature `>= 35` | Increase Temperature by `10` and remove `5` seconds |
-| 12 | Mix | Black Ice | Frost Lotus + Essence of the Void and total Density `<= 0` | Reduce Temperature by `10` and increase Magic Power by `20%` |
-| 13 | Mix | Heavy Spark | Fairy Dust + Toad Slime and total Density `>= 40` | Increase Density by `20%` and Magic Power by `10%` |
-| 14 | Mix | Burning Root | Mandrake Root + Phoenix Feather and total Temperature `>= 40` | Increase Temperature by `15` and reduce Density by `10%` |
-| 15 | Mix | Void Resonance | Essence of the Void + Dragon Tears and total Magic Power `>= 50` | Increase Magic Power by `30%` and reduce Temperature by `5` |
+| #   | Type        | Reaction          | Trigger                                                                    | Effect                                                       |
+| --- | ----------- | ----------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| 1   | Ingredients | Bubbling          | Fairy Dust + Caustic Acid                                                  | Magic Power `+50%`, remove `10` seconds once                 |
+| 2   | Ingredients | Volatile Mix      | Phoenix Feather + Essence of the Void                                      | Lose `1` life and clear the cauldron                         |
+| 3   | Ingredients | Solar Frost       | Dragon Tears + Frost Lotus                                                 | Set Temperature to `0`, increase Density by `20%`            |
+| 4   | Ingredients | Rooted Steam      | Mandrake Root + Toad Slime                                                 | Increase Density by `25%`, reduce Magic Power by `10%`       |
+| 5   | Ingredients | Ashen Bloom       | Phoenix Feather + Fairy Dust                                               | Increase Temperature by `10`, increase Magic Power by `25%`  |
+| 6   | Stats       | Annihilation      | One ingredient has Temperature `> +15` and another has Temperature `< −15` | Set Temperature to `0` and double Density                    |
+| 7   | Stats       | Pressure Spike    | Total Density `>= 70`                                                      | Set Density to `70` and increase Magic Power by `10%`        |
+| 8   | Stats       | Magma Flux        | Total Temperature `>= 60`                                                  | Increase Magic Power by `20%` and reduce Density by `10%`    |
+| 9   | Stats       | Deep Freeze       | Total Temperature `<= -20`                                                 | Increase Density by `15%` and reduce Magic Power by `15%`    |
+| 10  | Stats       | Arcane Saturation | Total Magic Power `>= 80`                                                  | Set Magic Power to `80` and increase Temperature by `5`      |
+| 11  | Mix         | Steam Burst       | Dragon Tears + Caustic Acid and total Temperature `>= 35`                  | Increase Temperature by `10` and remove `5` seconds          |
+| 12  | Mix         | Black Ice         | Frost Lotus + Essence of the Void and total Density `<= 0`                 | Reduce Temperature by `10` and increase Magic Power by `20%` |
+| 13  | Mix         | Heavy Spark       | Fairy Dust + Toad Slime and total Density `>= 40`                          | Increase Density by `20%` and Magic Power by `10%`           |
+| 14  | Mix         | Burning Root      | Mandrake Root + Phoenix Feather and total Temperature `>= 40`              | Increase Temperature by `15` and reduce Density by `10%`     |
+| 15  | Mix         | Void Resonance    | Essence of the Void + Dragon Tears and total Magic Power `>= 50`           | Increase Magic Power by `30%` and reduce Temperature by `5`  |
 
 ## Hints
 

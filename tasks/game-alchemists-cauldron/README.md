@@ -2,17 +2,16 @@
 
 Mix ingredients, match 3 target ranges, and brew potions before time or lives run out.
 
-
 ## Levels and score
 
 Students can stop after any finished level.
 
-| Stage | What you add | Story points | Total score |
-|---|---|:---:|:---:|
-| 🟣 **Precondition 1** | Repository setup, tooling, folder structure and quality checks | 58 | 58 |
-| 🟢 **Level 1 — Basic** | One full playable game with one fixed rule set | 170 | 228 |
-| 🟡 **Level 2 — Extended** | Difficulty selection and save / continue | 50 | 278 |
-| 🔴 **Level 3 — Full game** | Drag & drop, tooltip, reactions, Pour Out, keyboard shortcuts and visual feedback | 115 | 393 |
+| Stage                      | What you add                                                                      | Story points | Total score |
+| -------------------------- | --------------------------------------------------------------------------------- | :----------: | :---------: |
+| 🟣 **Precondition 1**      | Repository setup, tooling, folder structure and quality checks                    |      58      |     58      |
+| 🟢 **Level 1 — Basic**     | One full playable game with one fixed rule set                                    |     170      |     228     |
+| 🟡 **Level 2 — Extended**  | Difficulty selection and save / continue                                          |      50      |     278     |
+| 🔴 **Level 3 — Full game** | Drag & drop, tooltip, reactions, Pour Out, keyboard shortcuts and visual feedback |     115      |     393     |
 
 Maximum possible score: **393**.
 
@@ -76,16 +75,16 @@ Worked example round:
 
 Level 1 always uses the **Medium** column below. In Level 2, the player chooses the difficulty from the **Settings/Menu** panel on the start screen.
 
-| Setting | Easy | Medium | Hard |
-|---|:---:|:---:|:---:|
-| Ingredients on shelf | 4 | 6 | 8 |
-| Max ingredients in cauldron | 4 | 4 | 5 |
-| Starting time | 180 s | 150 s | 150 s |
-| Recipe tolerance | ±12 | ±8 | ±5 |
-| Lives | 5 | 3 | 3 |
-| Score per brew | 100 | 200 | 300 |
-| Time bonus per brew | +15 s | +10 s | +5 s |
-| Reactions | none | 2 reactions | 3 reactions |
+| Setting                     | Easy  |   Medium    |    Hard     |
+| --------------------------- | :---: | :---------: | :---------: |
+| Ingredients on shelf        |   4   |      6      |      8      |
+| Max ingredients in cauldron |   4   |      4      |      5      |
+| Starting time               | 180 s |    150 s    |    150 s    |
+| Recipe tolerance            |  ±12  |     ±8      |     ±5      |
+| Lives                       |   5   |      3      |      3      |
+| Score per brew              |  100  |     200     |     300     |
+| Time bonus per brew         | +15 s |    +10 s    |    +5 s     |
+| Reactions                   | none  | 2 reactions | 3 reactions |
 
 Use this table as the single source of numbers.
 
@@ -95,31 +94,31 @@ The game uses this fixed ordered list of ingredient types. Level 1 uses the firs
 
 In Level 1 and Level 2, every card shows the 3 numbers directly. In Level 3, the card shows only the icon and name, and the numbers move to a tooltip.
 
-| # | Ingredient | Temperature | Density | Magic Power |
-|---|---|:---:|:---:|:---:|
-| 1 | Dragon Tears | +25 | +8 | +10 |
-| 2 | Fairy Dust | +12 | +9 | +12 |
-| 3 | Frost Lotus | −18 | +4 | +14 |
-| 4 | Mandrake Root | −5 | +20 | +8 |
-| 5 | Caustic Acid | +10 | +14 | +22 |
-| 6 | Essence of the Void | −20 | −10 | +40 |
-| 7 | Phoenix Feather | +50 | −10 | +30 |
-| 8 | Toad Slime | +5 | +30 | 0 |
+| #   | Ingredient          | Temperature | Density | Magic Power |
+| --- | ------------------- | :---------: | :-----: | :---------: |
+| 1   | Dragon Tears        |     +25     |   +8    |     +10     |
+| 2   | Fairy Dust          |     +12     |   +9    |     +12     |
+| 3   | Frost Lotus         |     −18     |   +4    |     +14     |
+| 4   | Mandrake Root       |     −5      |   +20   |     +8      |
+| 5   | Caustic Acid        |     +10     |   +14   |     +22     |
+| 6   | Essence of the Void |     −20     |   −10   |     +40     |
+| 7   | Phoenix Feather     |     +50     |   −10   |     +30     |
+| 8   | Toad Slime          |     +5      |   +30   |      0      |
 
 ## Ingredient stock
 
 The shelf does not have unlimited ingredients. Stock is a resource that the player must use carefully.
 
-| Rule | Value |
-|---|---|
-| Start stock | At the start of **every new game**, each ingredient on the shelf gets a **random whole number from 2 to 15**. Every ingredient gets its own number. |
-| Where the player sees it | A number badge on the shelf card (in the pictures below it is the number in a circle). |
-| Adding to the cauldron | Each added ingredient reduces its stock by **1**. |
-| Empty ingredient | When the stock is **0**, the shelf slot becomes **empty**: no icon, dimmed, badge **0**. The slot stays in place and cannot be clicked, dragged or focused. |
-| After Brew | Used ingredients are **spent**. They are **not** returned. The stock is **not** refilled. |
-| Wrong mixture | A failed brew still spends the ingredients. |
-| New game / Play again | A new random stock is created. |
-| Continue Game (Level 2) | The saved stock is restored (not re-rolled). |
+| Rule                     | Value                                                                                                                                                       |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Start stock              | At the start of **every new game**, each ingredient on the shelf gets a **random whole number from 2 to 15**. Every ingredient gets its own number.         |
+| Where the player sees it | A number badge on the shelf card (in the pictures below it is the number in a circle).                                                                      |
+| Adding to the cauldron   | Each added ingredient reduces its stock by **1**.                                                                                                           |
+| Empty ingredient         | When the stock is **0**, the shelf slot becomes **empty**: no icon, dimmed, badge **0**. The slot stays in place and cannot be clicked, dragged or focused. |
+| After Brew               | Used ingredients are **spent**. They are **not** returned. The stock is **not** refilled.                                                                   |
+| Wrong mixture            | A failed brew still spends the ingredients.                                                                                                                 |
+| New game / Play again    | A new random stock is created.                                                                                                                              |
+| Continue Game (Level 2)  | The saved stock is restored (not re-rolled).                                                                                                                |
 
 The stock is the same range (2–15) on all difficulties.
 
@@ -139,28 +138,28 @@ Use one fixed table of **20** recipes. At the start of a new game and after each
 
 The player sees only the recipe name and the 3 target ranges. During the game, calculate the current cauldron values and compare them with these ranges.
 
-| # | Difficulty | Recipe name | Temperature | Density | Magic Power |
-|---|---|---|:---:|:---:|:---:|
-| 1 | Easy | Moon Mist | 32..42 | 12..22 | 17..27 |
-| 2 | Easy | Root Bloom | 2..12 | 24..34 | 15..25 |
-| 3 | Easy | Frost Steam | 2..12 | 7..17 | 19..29 |
-| 4 | Easy | Quiet Swirl | -28..-18 | 19..29 | 17..27 |
-| 5 | Easy | Bright Dew | 27..37 | 32..42 | 25..35 |
-| 6 | Easy | Snow Dust | -16..-6 | 28..38 | 29..39 |
-| 7 | Medium | Acid Spark | 17..27 | 18..28 | 29..39 |
-| 8 | Medium | Void Ember | 0..10 | 0..10 | 45..55 |
-| 9 | Medium | Heavy Acid | 0..10 | 29..39 | 25..35 |
-| 10 | Medium | Frost Acid | -13..-3 | 13..23 | 31..41 |
-| 11 | Medium | Dusty Void | -13..-3 | 0..10 | 47..57 |
-| 12 | Medium | Dragon Void | 25..35 | 1..11 | 55..65 |
-| 13 | Medium | Rooted Night | -18..-8 | 14..24 | 55..65 |
-| 14 | Hard | Phoenix Pulse | 57..67 | 0..10 | 37..47 |
-| 15 | Hard | Slime Crown | -5..5 | 45..55 | 3..13 |
-| 16 | Hard | Void Flame | 25..35 | 0..10 | 60..70 |
-| 17 | Hard | Acid Bog | 10..20 | 39..49 | 17..27 |
-| 18 | Hard | Frozen Ash | 27..37 | 0..10 | 39..49 |
-| 19 | Hard | Triple Eclipse | -20..-10 | 19..29 | 60..70 |
-| 20 | Hard | Ember Soup | 62..72 | 24..34 | 37..47 |
+| #   | Difficulty | Recipe name    | Temperature | Density | Magic Power |
+| --- | ---------- | -------------- | :---------: | :-----: | :---------: |
+| 1   | Easy       | Moon Mist      |   32..42    | 12..22  |   17..27    |
+| 2   | Easy       | Root Bloom     |    2..12    | 24..34  |   15..25    |
+| 3   | Easy       | Frost Steam    |    2..12    |  7..17  |   19..29    |
+| 4   | Easy       | Quiet Swirl    |  -28..-18   | 19..29  |   17..27    |
+| 5   | Easy       | Bright Dew     |   27..37    | 32..42  |   25..35    |
+| 6   | Easy       | Snow Dust      |   -16..-6   | 28..38  |   29..39    |
+| 7   | Medium     | Acid Spark     |   17..27    | 18..28  |   29..39    |
+| 8   | Medium     | Void Ember     |    0..10    |  0..10  |   45..55    |
+| 9   | Medium     | Heavy Acid     |    0..10    | 29..39  |   25..35    |
+| 10  | Medium     | Frost Acid     |   -13..-3   | 13..23  |   31..41    |
+| 11  | Medium     | Dusty Void     |   -13..-3   |  0..10  |   47..57    |
+| 12  | Medium     | Dragon Void    |   25..35    |  1..11  |   55..65    |
+| 13  | Medium     | Rooted Night   |   -18..-8   | 14..24  |   55..65    |
+| 14  | Hard       | Phoenix Pulse  |   57..67    |  0..10  |   37..47    |
+| 15  | Hard       | Slime Crown    |    -5..5    | 45..55  |    3..13    |
+| 16  | Hard       | Void Flame     |   25..35    |  0..10  |   60..70    |
+| 17  | Hard       | Acid Bog       |   10..20    | 39..49  |   17..27    |
+| 18  | Hard       | Frozen Ash     |   27..37    |  0..10  |   39..49    |
+| 19  | Hard       | Triple Eclipse |  -20..-10   | 19..29  |   60..70    |
+| 20  | Hard       | Ember Soup     |   62..72    | 24..34  |   37..47    |
 
 The table above is the full reaction catalog. Each difficulty uses only its configured subset of reactions: none on Easy, 2 on Medium, and 3 on Hard.
 
@@ -222,8 +221,8 @@ src/
 ## TypeScript types
 
 ```ts
-type Difficulty = 'easy' | 'medium' | 'hard'; // Level 2+
-type GameStatus = 'menu' | 'playing' | 'paused' | 'game-over';
+type Difficulty = "easy" | "medium" | "hard"; // Level 2+
+type GameStatus = "menu" | "playing" | "paused" | "game-over";
 
 interface IIngredient {
   id: string;
@@ -263,7 +262,7 @@ interface IGameState {
 interface IReaction {
   id: string;
   name: string;
-  difficulty: Exclude<Difficulty, 'easy'>;
+  difficulty: Exclude<Difficulty, "easy">;
   isActive: (ingredients: IIngredient[]) => boolean;
   apply: (values: {
     temperature: number;
@@ -279,49 +278,49 @@ interface IReaction {
 
 ## Precondition 1
 
-| Story | Points |
-|---|:---:|
-| [Story 1](./precondition-user-story.md) Project Setup & Technical Base | 58 |
-| **Precondition 1 points** | **58** |
+| Story                                                                  | Points |
+| ---------------------------------------------------------------------- | :----: |
+| [Story 1](./precondition-user-story.md) Project Setup & Technical Base |   58   |
+| **Precondition 1 points**                                              | **58** |
 
 ## Level 1 stories
 
-| Story | Points |
-|---|:---:|
-| [US 1.1](./user_story_1.1.md) Ingredient Shelf & Cauldron | 35 |
-| [US 1.2](./user_story_1.2.md) Cauldron Parameter Bars | 25 |
-| [US 1.3](./user_story_1.3.md) Recipe & Brewing Check | 45 |
-| [US 1.4](./user_story_1.4.md) Timer & Game Over | 30 |
-| [US 1.5](./user_story_1.5.md) Pause | 15 |
-| [US 1.6](./user_story_1.6.md) Leaderboard (Top-10) | 20 |
-| Precondition 1 points | 58 |
-| **Level 1 story points** | **170** |
-| Common requirements (listed separately, see [common requirements](./common-requirements.md)) | 30 |
-| **Level 1 total score** | **228** |
+| Story                                                                                        | Points  |
+| -------------------------------------------------------------------------------------------- | :-----: |
+| [US 1.1](./user_story_1.1.md) Ingredient Shelf & Cauldron                                    |   35    |
+| [US 1.2](./user_story_1.2.md) Cauldron Parameter Bars                                        |   25    |
+| [US 1.3](./user_story_1.3.md) Recipe & Brewing Check                                         |   45    |
+| [US 1.4](./user_story_1.4.md) Timer & Game Over                                              |   30    |
+| [US 1.5](./user_story_1.5.md) Pause                                                          |   15    |
+| [US 1.6](./user_story_1.6.md) Leaderboard (Top-10)                                           |   20    |
+| Precondition 1 points                                                                        |   58    |
+| **Level 1 story points**                                                                     | **170** |
+| Common requirements (listed separately, see [common requirements](./common-requirements.md)) |   30    |
+| **Level 1 total score**                                                                      | **228** |
 
 ## Level 2 stories
 
-| Story | Points |
-|---|:---:|
-| [US 2.1](./user_story_2.1.md) Difficulty Selection | 25 |
-| [US 2.2](./user_story_2.2.md) Auto-save & Continue Game | 25 |
-| **Level 1 + Level 2 story points** | **220** |
-| **Level 2 total score** | **278** |
+| Story                                                   | Points  |
+| ------------------------------------------------------- | :-----: |
+| [US 2.1](./user_story_2.1.md) Difficulty Selection      |   25    |
+| [US 2.2](./user_story_2.2.md) Auto-save & Continue Game |   25    |
+| **Level 1 + Level 2 story points**                      | **220** |
+| **Level 2 total score**                                 | **278** |
 
 Chemical reactions need the difficulty selection from Level 2, because Easy / Medium / Hard use different reaction sets.
 
 ## Level 3 stories
 
-| Story | Points |
-|---|:---:|
-| [US 3.1](./user_story_3.1.md) Drag & Drop | 20 |
-| [US 3.2](./user_story_3.2.md) Ingredient Tooltip | 15 |
-| [US 3.3](./user_story_3.3.md) Chemical Reactions | 35 |
-| [US 3.4](./user_story_3.4.md) Pour Out | 10 |
-| [US 3.5](./user_story_3.5.md) Visual Feedback | 20 |
-| [US 3.6](./user_story_3.6.md) Keyboard Shortcuts | 15 |
-| **All story points** | **335** |
-| **Level 3 total score** | **393** |
+| Story                                            | Points  |
+| ------------------------------------------------ | :-----: |
+| [US 3.1](./user_story_3.1.md) Drag & Drop        |   20    |
+| [US 3.2](./user_story_3.2.md) Ingredient Tooltip |   15    |
+| [US 3.3](./user_story_3.3.md) Chemical Reactions |   35    |
+| [US 3.4](./user_story_3.4.md) Pour Out           |   10    |
+| [US 3.5](./user_story_3.5.md) Visual Feedback    |   20    |
+| [US 3.6](./user_story_3.6.md) Keyboard Shortcuts |   15    |
+| **All story points**                             | **335** |
+| **Level 3 total score**                          | **393** |
 
 ## Technical constraints
 

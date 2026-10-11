@@ -30,7 +30,9 @@ The player gets one random recipe from the README recipe table, mixes ingredient
 5. Small code sketch:
 
 ```ts
-const availableRecipes = RECIPES.filter((recipe) => recipe.difficulty === 'medium');
+const availableRecipes = RECIPES.filter(
+  (recipe) => recipe.difficulty === "medium",
+);
 
 const activeRecipe = pickRandom(availableRecipes);
 ```

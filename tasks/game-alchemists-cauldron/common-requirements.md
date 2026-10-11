@@ -6,12 +6,12 @@ These rules are checked together with the story files of this game. If a story g
 
 Students can stop after any finished level. Levels are cumulative: Level 2 assumes that Level 1 is fully done, and Level 3 assumes that Level 1 and Level 2 are fully done.
 
-| Level | Points added by this level | Total score |
-|---|:---:|:---:|
-| 🟣 **Precondition 1** | 58 precondition points | 58 |
-| 🟢 **Level 1 — Basic** | 170 story points + 30 common requirements points | 228 |
-| 🟡 **Level 2 — Extended** | +50 story points | 278 |
-| 🔴 **Level 3 — Full game** | +115 story points | 393 |
+| Level                      |            Points added by this level            | Total score |
+| -------------------------- | :----------------------------------------------: | :---------: |
+| 🟣 **Precondition 1**      |              58 precondition points              |     58      |
+| 🟢 **Level 1 — Basic**     | 170 story points + 30 common requirements points |     228     |
+| 🟡 **Level 2 — Extended**  |                 +50 story points                 |     278     |
+| 🔴 **Level 3 — Full game** |                +115 story points                 |     393     |
 
 The 58 precondition points are counted once before Level 1. The 30 common requirements points are counted once, in Level 1. Maximum possible score: **393**.
 

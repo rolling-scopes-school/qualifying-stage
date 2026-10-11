@@ -17,17 +17,17 @@ Work for this stage should follow the common project rules:
 
 ## Repository Setup (25 points)
 
-- (10 points) [PRE-QS-1-1-1](./tasks/preconditions/precondition-repo-setup-readme.md) Create the game repository, README and .gitignore.
-- (10 points) [PRE-QS-1-1-2](./tasks/preconditions/precondition-folder-structure.md) Set up a clear and organized folder structure for the game.
-- (5 points) [PRE-QS-1-1-3](./tasks/preconditions/precondition-pull-request-template.md) Create a pull request template with a clear structure.
+- (10 points) [PRE-QS-1-1-1](./preconditions/precondition-repo-setup-readme.md) Create the game repository, README and .gitignore.
+- (10 points) [PRE-QS-1-1-2](./preconditions/precondition-folder-structure.md) Set up a clear and organized folder structure for the game.
+- (5 points) [PRE-QS-1-1-3](./preconditions/precondition-pull-request-template.md) Create a pull request template with a clear structure.
 
 ## Development Environment Configuration (33 points)
 
-- (10 points) [PRE-QS-1-2-1](./tasks/preconditions/precondition-bundler-setup.md) Set up and configure the bundler for development and production builds.
-- (5 points) [PRE-QS-1-2-2](./tasks/preconditions/precondition-typescript-config.md) Configure TypeScript for strong typing.
-- (5 points) [PRE-QS-1-2-3](./tasks/preconditions/precondition-eslint-setup.md) Set up ESLint for consistent code quality checks.
-- (5 points) [PRE-QS-1-2-4](./tasks/preconditions/precondition-prettier-config.md) Configure Prettier for automatic formatting.
-- (8 points) [PRE-QS-1-2-5](./tasks/preconditions/precondition-husky-git-hooks.md) Initialize Husky for commit and push hooks.
+- (10 points) [PRE-QS-1-2-1](./preconditions/precondition-bundler-setup.md) Set up and configure the bundler for development and production builds.
+- (5 points) [PRE-QS-1-2-2](./preconditions/precondition-typescript-config.md) Configure TypeScript for strong typing.
+- (5 points) [PRE-QS-1-2-3](./preconditions/precondition-eslint-setup.md) Set up ESLint for consistent code quality checks.
+- (5 points) [PRE-QS-1-2-4](./preconditions/precondition-prettier-config.md) Configure Prettier for automatic formatting.
+- (8 points) [PRE-QS-1-2-5](./preconditions/precondition-husky-git-hooks.md) Initialize Husky for commit and push hooks.
 
 ## Hints
 
