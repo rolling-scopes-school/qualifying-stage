@@ -20,7 +20,8 @@ The 58 precondition points are counted once before Level 1. The 30 common requir
 - The game works in the latest Google Chrome.
 - Use **TypeScript**. Do not use frameworks, CSS frameworks, game engines or other libraries.
 - Do not use the `any` type.
-- Draw icons and shapes with CSS, SVG or text symbols. Do not use pictures or icon fonts for game elements.
+- A single composite image containing all game elements must not be used. Each game element should be represented by its 
+own separate asset, such as an SVG, icon, text element, or any other individual visual component.
 - Work in Git with task branches, small step-by-step commits and a public deployed link.
 - The game must be usable on screens from **375 px** to **1920 px** wide, without a horizontal page scrollbar.
 - There is no ready design file. Pixel-perfect matching is not checked.
