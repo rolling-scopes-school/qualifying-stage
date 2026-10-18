@@ -19,7 +19,7 @@ The player gets one random recipe from the README recipe table, mixes ingredient
 - [ ] Level 1 has **no reactions**. The recipe data and the brew check use only the ingredient sums.
 - [ ] Enable **Brew** only when the cauldron has at least **1** ingredient.
 - [ ] On brew, calculate the current **Temperature**, **Density** and **Magic Power**, then check each parameter against the recipe range expanded by the Level 1 tolerance **±8**.
-- [ ] On success, add **200** score, add **10 s** up to **120 s**, clear the cauldron and generate a new recipe. On failure, lose **1** life and clear the cauldron.
+- [ ] On success, add **200** score, add **10 s** up to **150 s**, clear the cauldron and generate a new recipe. On failure, lose **1** life and clear the cauldron.
 
 ## Hints
 
