@@ -77,7 +77,7 @@ The project is split into stories. To keep the review diff focused, follow this 
 ## Penalties
 
 - Forbidden libraries or frameworks are used: **-200 points**
-- The layout or game elements are made with images: **-90 points**
+- The layout or game elements are built from a single image containing all game elements: **-90 points**
 - Changes after the deadline: **-40 points**
 - `console.log` in the code: **-10 points per unique log, up to -30 points**
 - Explicit `any` in TypeScript: **-5 points per occurrence**
