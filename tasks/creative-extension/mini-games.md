@@ -1,9 +1,18 @@
 # 🎮 MiniGames: Creative Extension
 
-Welcome to the **final stage** of your MiniGames project — the time to unleash your creativity, technical curiosity, 
+Welcome to the **final stage** of your project — the time to unleash your creativity, technical curiosity,
 and problem-solving skills!
 
-In this part, you have **2 weeks** to design and implement your own **unique feature or improvement** to the MiniGames app. This is your chance to go beyond the given requirements and show initiative as a developer.
+In this part, you have **2 weeks** to design and implement your own **unique feature or improvement** to your project. This is your chance to go beyond the given requirements and show initiative as a developer.
+
+## Choose your project
+
+You can extend **either** of the two projects, at your choice:
+
+- **MiniGames** — the web application from the [MiniGames task](../minigames/README.md);
+- **Alchemist's Cauldron** — the game from the [Alchemist's Cauldron task](../game-alchemists-cauldron/README.md).
+
+The ideas below are written with MiniGames in mind, but they can be adapted to Alchemist's Cauldron as well.
 
 ## Your task
 
@@ -11,7 +20,6 @@ Choose and implement **one or more** enhancements that demonstrate your creativi
 
 ### You can
 
-- **Embed a playable mini-game** — implement an interactive game (e.g., Memory Card Game, Tic-Tac-Toe, Snake, Minesweeper, Trivia Quiz, or HTML5 Canvas / WebGL mini-game).
 - **Create a User Profile & Achievements page** — user statistics dashboard, gameplay history, unlockable achievement badges, avatar customizer, and personal user settings.
 - **Add a Game Rating & Detailed Review system** — star ratings, review submission, filterable reviews, review moderation, or helpfulness upvoting.
 - **Implement interactive audio & visual enhancements** — background music/sound effects manager using Web Audio API, Gamepad API support, custom visual themes/skins (dark, light, retro pixel, arcade).
@@ -26,11 +34,11 @@ Choose and implement **one or more** enhancements that demonstrate your creativi
 
 #### Backend Source Code (Optional)
 
-If your feature requires backend changes, you may use and extend the backend prepared for the MiniGames project or build your own lightweight backend service (e.g. Node.js/Express, Firebase, or Supabase).
+If your feature requires backend changes, you may build your own lightweight backend service (e.g. Node.js/Express, Firebase, or Supabase).
 
 ## Presentation & Interview
 
-At the end of the task, you will present your project to an interviewer (one of the mentors).
+At the end of the task, you will present your project to a **curator**. The presentation takes place **together with the [self-introduction](../self-intro/README.md)** in the same session with the curator.
 Prepare a short presentation (5–10 minutes) where you:
 
 - Explain your idea and what motivated you to choose it;
@@ -42,10 +50,10 @@ Be prepared to answer technical questions about your work, as this will help ass
 
 ## Evaluation
 
-❗️ **Please note:** The presentation of your feature will be a part of the technical interview with mentor. After the interview, you will receive two separate scores:
+❗️ **Please note:** The presentation of your feature will be a part of the session with the curator, together with the self-introduction. After the session, you will receive separate scores:
 
-- **Creative Extension** — for your idea, implementation quality, and presentation. See detailed criteria in the [Mentor Assessment Checklist](mentors-check.md).
-- **Technical Interview** — checks your general understanding of front-end concepts.
+- **Self-introduction** — see the [self-introduction task](../self-intro/README.md).
+- **Creative Extension** — for your idea, implementation quality, and presentation. See detailed criteria in the [Curator Assessment Checklist](mentors-check.md).
 
 ## Tips for Success
 
@@ -54,4 +62,4 @@ Be prepared to answer technical questions about your work, as this will help ass
 - Don’t be afraid to explore — this is your safe space to experiment and learn.
 - Make your project visually appealing and technically solid.
 
-Enjoy this final creative journey and make your MiniGames application truly your own! 🎮✨
+Enjoy this final creative journey and make your project truly your own! 🎮✨
