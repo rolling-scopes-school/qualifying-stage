@@ -57,4 +57,4 @@ English only (assignments, communication, and interviews).
 
 ### Week #9-10 (November, 2 - November, 22 )
 
-- [Cross Interview](tasks/cross-interview/README.mdDME.md)
+- [Cross Interview](tasks/cross-interview/README.md)
